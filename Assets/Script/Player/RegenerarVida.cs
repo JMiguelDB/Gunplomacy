@@ -6,38 +6,40 @@ public class RegenerarVida : MonoBehaviour
 {
     public static float secondsToHeal = 1f;
     public static float increaseSpeedToHeal = 0.1f;
-    public static int eterConsumed = -25;
-    public string razaEter = "Mutanos";
 
-    bool isCoroutineStarted = false;
-    GestionEter eter;
+
+    bool hasCoroutineStarted = false;
+    EterManager eterManager;
+    Health health;
 
     private void Start()
     {
-        eter = gameObject.GetComponent<GestionEter>();
+        eterManager = GetComponent<EterManager>();
+        health = GetComponent<Health>();
     }
     void FixedUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.E) && !isCoroutineStarted)
+        if (Input.GetKeyDown(KeyCode.E) && !hasCoroutineStarted)
         {
-            isCoroutineStarted = true;
-            StartCoroutine(heal());
+            hasCoroutineStarted = true;
+            StartCoroutine(Heal());
         }
     }
 
-    IEnumerator heal()
+    // TODO Arreglar la lectura de los valores del arma y de la raza, meter los check en el eterManager
+    IEnumerator Heal()
     {
-        while (Input.GetKey(KeyCode.E) && VidaPlayer.currentVida != VidaPlayer.maxVida && canHeal())
+        while (Input.GetKey(KeyCode.E) && VidaPlayer.currentVida != VidaPlayer.maxVida /*&& canHeal()*/)
         {
             yield return new WaitForSeconds(secondsToHeal);
             secondsToHeal -= increaseSpeedToHeal;
             VidaPlayer.currentVida++;
             //Disminuir numero de balas con cada recuperacion
-            eter.ControlEter(eterConsumed, razaEter);
+            //eterManager.DecreaseEter(eterConsumed, eterManager.GetCurrentEterTag());
         }
-        isCoroutineStarted = false;
+        hasCoroutineStarted = false;
     }
-
+    /*
     bool canHeal()
     {
         bool can = false;
@@ -70,4 +72,5 @@ public class RegenerarVida : MonoBehaviour
         }
         return can;
     }
+    */
 }
