@@ -5,30 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Jose.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: Assets/Scenes/Julio.unity
-    guid: 63d65102860d2204e8f66e50626b3951
-  - enabled: 0
-    path: Assets/Scenes/Julio(jose).unity
-    guid: d05bb6ff846b9034a994d19d01f15f25
-  - enabled: 1
-    path: Assets/Scenes/Menu Seleccion Asalto.unity
-    guid: 2524c974e3233e64a970519e63a2019d
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Menu Inicio.unity
     guid: e60110616d377304e96e16eb63f7144f
+  - enabled: 1
+    path: Assets/Scenes/Menu Seleccion Asalto.unity
+    guid: 2524c974e3233e64a970519e63a2019d
   - enabled: 1
     path: Assets/Scenes/Menu Mejoras.unity
     guid: 726561c5b16aa4f448f6b9fedbbb1857
   - enabled: 1
     path: Assets/Scenes/Preload.unity
     guid: 77b10b5463451ea42bc59d903d3ad563
+  - enabled: 1
+    path: Assets/Scenes/Escena Principal.unity
+    guid: 16a98db785e55e349a737f64cdb49500
   - enabled: 1
     path: Assets/Scenes/Naves/Mutanos/Mut.Crucero.unity
     guid: 83e25c4239bd0a24885329098ef59ce2
