@@ -5,10 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - EterBotaniclos
-  - EterMecanos
-  - EterMutanos
-  - EterIctioniclos
-  - EterBotaniclos
   - Arma
   - Cofre
   - enemigo
@@ -24,6 +20,10 @@ TagManager:
   - BossSlurm
   - ArmaProtagonista
   - Bomba
+  - Botaniclo
+  - Ictioniclo
+  - Mutano
+  - Mecano
   layers:
   - Default
   - TransparentFX

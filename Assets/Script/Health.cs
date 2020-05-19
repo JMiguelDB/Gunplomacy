@@ -12,7 +12,7 @@ public class Health : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    void SetDamage(int damage)
+    public void SetDamage(int damage)
     {
         currentHealth -= damage;
         HealthIndicator.Instance.UpdateVidaUI(currentHealth);
@@ -24,7 +24,7 @@ public class Health : MonoBehaviour
         currentHealth += heal;
     }
 
-    public int GetHeal()
+    public int GetHealth()
     {
         return currentHealth;
     }

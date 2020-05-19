@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 1880050297}
   - component: {fileID: 1880050296}
   - component: {fileID: 562156692}
+  - component: {fileID: 4858917749540414763}
   m_Layer: 11
   m_Name: Player-final
   m_TagString: Untagged
@@ -382,6 +383,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 6
+--- !u!114 &4858917749540414763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4015196838987846313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df2081dbb1e9af84b9b76092d5935271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxEterMutanos: 100
+  maxEterBotaniclos: 100
+  maxEterIctioniclos: 100
+  maxEterMecanos: 100
 --- !u!1 &5171764736447785878
 GameObject:
   m_ObjectHideFlags: 0

@@ -25,7 +25,6 @@ public class RotateWeapon : MonoBehaviour
         float rad = Mathf.Atan2(transform.position.y - targetPosition.y, transform.position.x - targetPosition.x);
 
         float degrees = (180 / Mathf.PI) * rad;
-        print(degrees);
 
         transform.rotation = Quaternion.Euler(0, 0, degrees);
         FlipSprites(degrees);
