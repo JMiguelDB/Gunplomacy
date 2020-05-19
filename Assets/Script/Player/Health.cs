@@ -37,4 +37,9 @@ public class Health : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+
+    public bool HasMaxHealth()
+    {
+        return currentHealth == maxHealth;
+    }
 }

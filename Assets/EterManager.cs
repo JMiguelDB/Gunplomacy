@@ -14,7 +14,7 @@ public class EterManager : MonoBehaviour
     public int maxEterMecanos = 100;
 
     //Variable para indicar la raza actual a la que pertenece el arma
-    string currentTag;
+    string currentEter;
 
     Dictionary<string, int> maxEter = new Dictionary<string, int>();
     Dictionary<string, int> eter = new Dictionary<string, int>();
@@ -52,12 +52,12 @@ public class EterManager : MonoBehaviour
         EterIndicator.Instance.UpdateEterUI(eter[tag], tag);
     }
 
-    public void DecreaseEter(int value, string tag)
+    public void DecreaseCurrentEter(int value)
     {
-        eter[tag] -= value;
-        if (eter[tag] < 0)
+        eter[currentEter] -= value;
+        if (eter[currentEter] < 0)
         {
-            eter[tag] = 0;
+            eter[currentEter] = 0;
         }
         EterIndicator.Instance.UpdateEterUI(eter[tag], tag);
     }
@@ -67,13 +67,18 @@ public class EterManager : MonoBehaviour
         return eter[tag];
     }
 
-    public string GetCurrentEterTag()
+    public string GetCurrentEter()
     {
-        return currentTag;
+        return currentEter;
     }
 
-    public void SetCurrentEterTag(string tag)
+    public void SetCurrentEter(string tag)
     {
-        currentTag = tag;
+        currentEter = tag;
+    }
+
+    public bool CanUseEter(int eterQuantity)
+    {
+        return eter[tag] > Mathf.Abs(eterQuantity);
     }
 }
