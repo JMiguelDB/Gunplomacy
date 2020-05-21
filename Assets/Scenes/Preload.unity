@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 40652710}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: Untagged
+  m_TagString: GameManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3a5d4e7e6c192b4fad18f3c5e9db519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  test: {fileID: 1379832200}
+  test: {fileID: 0}
   layers:
   - {fileID: 0}
   - {fileID: 0}
@@ -317,7 +317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   layer: 2
-  obj: {fileID: 40652707}
+  obj: {fileID: 0}
 --- !u!1 &160784669
 GameObject:
   m_ObjectHideFlags: 0

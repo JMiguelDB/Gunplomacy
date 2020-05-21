@@ -24,6 +24,7 @@ TagManager:
   - BossSlurm
   - ArmaProtagonista
   - Bomba
+  - GameManager
   layers:
   - Default
   - TransparentFX

@@ -9,19 +9,27 @@ public class ParalajeLayer : MonoBehaviour
     [SerializeField]
     GameObject obj;
     // Start is called before the first frame update
-    
+
+    private void Awake()
+    {
+        obj=GameObject.FindGameObjectWithTag("GameManager");
+    }
+
     void Start()
     {
-        obj = gameObject;
-        ParalajeMaster paralajeMaster = new ParalajeMaster();
+        obj.GetComponent<ParalajeMaster>().AddLayer(layer,gameObject);
         
-        paralajeMaster.AddLayer(layer, gameObject);
-
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        //H
     }
+
+
+
 }
+    
+
+
+

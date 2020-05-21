@@ -14,7 +14,7 @@ public class ParalajeMaster : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //layers.Insert(temporalNumeroDeCapa, temporalObjeto);
+        
     }
 
     // Update is called once per frame
@@ -26,8 +26,16 @@ public class ParalajeMaster : MonoBehaviour
 
     public void AddLayer(int NumeroDeCapa, GameObject Objeto)
     {
-        layers.Insert(NumeroDeCapa, Objeto);
-        print("dfvuge");
+        if (layers.Contains(Objeto))
+        {
+            //[i] Si el objeto ya exite devuelve una advertencia en consola.
+            Debug.LogWarning("Se ha intentado registrar un objeto que ya existe con nombre " + Objeto.name + 
+                " y en la capa " + NumeroDeCapa.ToString() + ".");
+        }
+        else
+        {
+            layers.Insert(NumeroDeCapa, Objeto);
+            print("Se ha registrado correctamente " + Objeto.name + "en la capa " + NumeroDeCapa.ToString() + ".");
+        }
     }
-
 }
