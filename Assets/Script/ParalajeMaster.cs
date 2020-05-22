@@ -6,14 +6,16 @@ public class ParalajeMaster : MonoBehaviour
 {
     public bool limpiarLista=false;
     [SerializeField]
-    List<GameObject> layers= new List<GameObject>(new GameObject[50]);
+    List<GameObject> layers = new List<GameObject>(new GameObject[50]);
+    [SerializeField]
+    List<Vector2> posiciones = new List<Vector2>(new Vector2[50]);
 
 
 
     Camera cam;
     public Vector3 wp;
 
-
+    bool inicio=true;
 
 
 
@@ -56,7 +58,11 @@ public class ParalajeMaster : MonoBehaviour
             else
             {
                 print("Encontrado en la fila " + t + " el objeto " + layers[t]);
-                layers[t].transform.position += new Vector3(wp.x, wp.y,0) * t;
+
+                
+                
+                layers[t].GetComponent<RectTransform>().anchoredPosition = new Vector3(wp.x * posiciones[t].x, wp.y * 
+                    posiciones[t].y, 0) * t;
             }
         }
 
@@ -75,6 +81,8 @@ public class ParalajeMaster : MonoBehaviour
     {
         layers.Clear();
         layers.AddRange(new GameObject[50]);
+        posiciones.Clear();
+        posiciones.AddRange(new Vector2[50]);
     }
 
     public void AddLayer(int NumeroDeCapa, GameObject Objeto)
@@ -88,7 +96,8 @@ public class ParalajeMaster : MonoBehaviour
         else
         {
             layers.Insert(NumeroDeCapa, Objeto);
-            print("Se ha registrado correctamente " + Objeto.name + "en la capa " + NumeroDeCapa.ToString() + ".");
+            posiciones.Insert(NumeroDeCapa, Objeto.GetComponent<RectTransform>().anchoredPosition);
+            print("Se ha registrado correctamente " + Objeto.name + "en la capa " + NumeroDeCapa.ToString() + " y su posición.");
         }
     }
 }
