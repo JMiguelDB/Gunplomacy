@@ -7,6 +7,9 @@ public class ParalajeMaster : MonoBehaviour
     #region Variables
 
     //[i] -##- Variables editables del Inspector.   -------------------------------------------##-
+    [SerializeField]
+    float multiplicadorDeDesplazamiento = 1;
+
     [Header("Activar mensajes de desarroyo en consola.")]
     [SerializeField]
     bool debug = false;
@@ -84,8 +87,9 @@ public class ParalajeMaster : MonoBehaviour
                 //[i]Aqui se realiza la operación de paralaje, que consta de la multiplicación de la "posicion original" + "posición del raton"
                 // dentro de un "vector2" y este a su vez se mutliplica por el numero de layer, que indicará la profundidad y será multiplicado
                 // por el "Valor de desplazamiento".
-                layers[t].GetComponent<RectTransform>().anchoredPosition = new Vector3(posicionRaton.x * posicionesOriginales[t].x, 
-                    posicionRaton.y * posicionesOriginales[t].y, 0) * (t*0.1f);
+                
+                layers[t].GetComponent<RectTransform>().anchoredPosition = new Vector3((posicionRaton.x * t * multiplicadorDeDesplazamiento) + posicionesOriginales[t].x,
+                    (posicionRaton.y * t * multiplicadorDeDesplazamiento) +  posicionesOriginales[t].y, 0) ;
             }
         }
 
