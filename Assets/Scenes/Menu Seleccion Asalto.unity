@@ -217,187 +217,279 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!4 &30923049 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-    type: 3}
-  m_PrefabInstance: {fileID: 1073441020}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &103632781 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-    type: 3}
-  m_PrefabInstance: {fileID: 1982754150}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &111194214
-PrefabInstance:
+--- !u!1 &52749552
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1358803365}
-    m_Modifications:
-    - target: {fileID: -209342069644414262, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: LevelId
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.528
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.343
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 14.357422
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.49401867
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.8694513
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -59.210003
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6869865755510830295, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Mecanos Crucero
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 951275703352bcd45bf1fc9bc30bff33, type: 3}
---- !u!1001 &124596287
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1331954513}
-    m_Modifications:
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.356
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.232
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.9991446
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.04135269
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 175.26
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6780876076840555519, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Ictioniclos Crucero (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2a882ac51d8c7614f825a1f45cd377f7, type: 3}
---- !u!4 &155024562 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-    type: 3}
-  m_PrefabInstance: {fileID: 379305912}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 52749553}
+  - component: {fileID: 52749559}
+  - component: {fileID: 52749558}
+  - component: {fileID: 52749557}
+  - component: {fileID: 52749556}
+  - component: {fileID: 52749555}
+  - component: {fileID: 52749554}
+  m_Layer: 5
+  m_Name: Nave Mutanos Expedicion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &52749553
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52749552}
+  m_LocalRotation: {x: -0, y: -0, z: 0.6877478, w: 0.72594976}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1633600953}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 86.90401}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 15, y: -26}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &52749554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52749552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 19
+--- !u!114 &52749555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52749552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 1
+  Accesible: 0
+--- !u!70 &52749556
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52749552}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &52749557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52749552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 0
+  textoNave: "Nave crucero\nBlue sunset\nIna de las m\xE1s r\xE1pidas y comunes de
+    su clase dada sus proporciones aerodin\xE1micas.\r\n"
+--- !u!114 &52749558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52749552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b0cb1725f8392164ab312824af259da6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &52749559
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52749552}
+  m_CullTransparentMesh: 0
+--- !u!1 &167271501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 167271502}
+  - component: {fileID: 167271508}
+  - component: {fileID: 167271507}
+  - component: {fileID: 167271506}
+  - component: {fileID: 167271505}
+  - component: {fileID: 167271504}
+  - component: {fileID: 167271503}
+  m_Layer: 5
+  m_Name: Nave   Mecanos Crucero
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &167271502
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167271501}
+  m_LocalRotation: {x: -0, y: -0, z: -0.33485398, w: 0.94227004}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 891473467}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -39.127003}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 225.99861, y: -235.00171}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &167271503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167271501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 16
+--- !u!114 &167271504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167271501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 0
+  Accesible: 0
+--- !u!70 &167271505
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167271501}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &167271506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167271501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 3
+  textoNave: "Nave crucero \nHayakyu\nEl crucero Hayakyu, fueron restos de una estaci\xF3n
+    espacial abandonada hasta que los mecanos dieron con todos ella, lentas pero
+    muy resistentes.\n"
+--- !u!114 &167271507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167271501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 85e6723014c4ff742b9a4b0dc78d1bff, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &167271508
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167271501}
+  m_CullTransparentMesh: 0
 --- !u!1 &172360465
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,12 +563,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 172360465}
   m_CullTransparentMesh: 0
---- !u!4 &173105236 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-    type: 3}
-  m_PrefabInstance: {fileID: 449216243}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &174561324
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,269 +718,143 @@ Transform:
   m_Father: {fileID: 2140780787}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
---- !u!1001 &204276014
-PrefabInstance:
+--- !u!1 &231259226
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 951744667}
-    m_Modifications:
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.9942853
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.34527668
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 109.12246
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.39571092
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9183752
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 46.621002
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7140224523417429339, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Mutanos Crucero
-      objectReference: {fileID: 0}
-    - target: {fileID: 9119145161528595516, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: LevelId
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7793f37fcd8fbb04f997daea0510c081, type: 3}
---- !u!1001 &218774663
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 500976301}
-    m_Modifications:
-    - target: {fileID: -8640454152561608431, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: Nivel
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.85535264
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.088908106
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.098233506
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.99516344
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 6.11
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4355482283289172452, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Botaniclos Guerra (2)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: aea45565ea9b05f41bafd38008203953, type: 3}
---- !u!1001 &237431114
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 951744667}
-    m_Modifications:
-    - target: {fileID: 2791446505501070976, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: LevelId
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3447357006200657625, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Mutanos Guerra (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667445801674571396, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: Nivel
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.1399999
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.40329474
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 109.12246
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.9421894
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.33508074
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 140.845
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: bac00811a488d2d4ca3a8e55b92822c8, type: 3}
---- !u!4 &259788045 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-    type: 3}
-  m_PrefabInstance: {fileID: 995126418}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 231259227}
+  - component: {fileID: 231259233}
+  - component: {fileID: 231259232}
+  - component: {fileID: 231259231}
+  - component: {fileID: 231259230}
+  - component: {fileID: 231259229}
+  - component: {fileID: 231259228}
+  m_Layer: 5
+  m_Name: Nave  Ictioniclos Crucero
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &231259227
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231259226}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9858703, w: 0.16751058}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1774494492}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 160.714}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 410, y: 143}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &231259228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231259226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 8
+--- !u!114 &231259229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231259226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 0
+  Accesible: 0
+--- !u!70 &231259230
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231259226}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &231259231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231259226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 9
+  textoNave: "Nave crucero \nSepien\nEs la nave m\xE1s com\xFAn entre los ictioniclos,
+    es la nave m\xE1s peque\xF1a entre sus flotas, aunque no se debe tomar a la ligera
+    si no quieres caer antes de tiempo.\n*1 Comandante\n*70% Reclutas\n*30% Soldados"
+--- !u!114 &231259232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231259226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 069c0ac2936da644ca571b39d08949d1, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &231259233
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231259226}
+  m_CullTransparentMesh: 0
 --- !u!1 &265565665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1058,95 +1018,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &295768241
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1358803365}
-    m_Modifications:
-    - target: {fileID: -209342069644414262, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: LevelId
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.1239998
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.31999996
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 14.357422
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.42286366
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.9061933
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -50.031002
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3173493997493752152, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: Nivel
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6869865755510830295, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Mecanos Crucero (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 951275703352bcd45bf1fc9bc30bff33, type: 3}
 --- !u!1 &296764001
 GameObject:
   m_ObjectHideFlags: 0
@@ -1225,7 +1096,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 665712297
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!224 &296764005
 RectTransform:
@@ -1242,7 +1113,7 @@ RectTransform:
   - {fileID: 11166255}
   - {fileID: 877243256}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1265,12 +1136,143 @@ MonoBehaviour:
   exit: {fileID: 538864061}
   texto: {fileID: 0}
   mejorLaNave: {fileID: 877243255}
---- !u!4 &300423230 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2613366586084723645, guid: 62ebb55e0d0d875468ab5f1a6afda57e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1659410216}
+--- !u!1 &341840958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 341840959}
+  - component: {fileID: 341840965}
+  - component: {fileID: 341840964}
+  - component: {fileID: 341840963}
+  - component: {fileID: 341840962}
+  - component: {fileID: 341840961}
+  - component: {fileID: 341840960}
+  m_Layer: 5
+  m_Name: Nave   Mecanos Crucero (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &341840959
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341840958}
+  m_LocalRotation: {x: -0, y: -0, z: -0.6858294, w: 0.7277624}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 891473467}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -86.602005}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -242, y: -232}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &341840960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341840958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 12
+--- !u!114 &341840961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341840958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 0
+  Accesible: 0
+--- !u!70 &341840962
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341840958}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &341840963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341840958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 3
+  textoNave: "Nave crucero \nHayakyu\nEl crucero Hayakyu, fueron restos de una estaci\xF3n
+    espacial abandonada hasta que los mecanos dieron con todos ella, lentas pero
+    muy resistentes.\n"
+--- !u!114 &341840964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341840958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 85e6723014c4ff742b9a4b0dc78d1bff, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &341840965
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341840958}
+  m_CullTransparentMesh: 0
 --- !u!1001 &360295361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1360,311 +1362,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3022628a4c4e87341b7ee87fcfe7bbf2, type: 3}
---- !u!1001 &379305912
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1358803365}
-    m_Modifications:
-    - target: {fileID: -1411996521407179013, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: Nivel
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 372301459542258469, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: LevelId
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.6185361
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.05940011
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 14.357422
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.84942466
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.5277099
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -116.298004
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7283970689479155823, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Mecano Guerra (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f4ed61abe7d5f6d4596b03efadec7ebb, type: 3}
---- !u!4 &381349245 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-    type: 3}
-  m_PrefabInstance: {fileID: 1730608813}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &418425110
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1331954513}
-    m_Modifications:
-    - target: {fileID: -5299548093439217390, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: Nivel
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.49
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.12
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.9998697
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.016143547
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 181.85
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6780876076840555519, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Ictioniclos Crucero (2)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2a882ac51d8c7614f825a1f45cd377f7, type: 3}
---- !u!1001 &449216243
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 500976301}
-    m_Modifications:
-    - target: {fileID: 1258878911299762667, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: Nivel
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1774018789696087272, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Botaniclos Crucero (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.03955087
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.30933103
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.005050853
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9999873
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -4.5860004
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3b529a000dcc6cb45ac3ad50c94baeb1, type: 3}
---- !u!1 &500976300
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 500976301}
-  m_Layer: 0
-  m_Name: Naves Botaniclos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &500976301
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 500976300}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.794024, y: -1.9847796, z: 14.357422}
-  m_LocalScale: {x: 3.5, y: 3.5, z: 0}
-  m_Children:
-  - {fileID: 1532485825}
-  - {fileID: 1734396046}
-  - {fileID: 1933774698}
-  - {fileID: 970032082}
-  - {fileID: 1303994160}
-  - {fileID: 173105236}
-  m_Father: {fileID: 1620934106}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &531056617 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-    type: 3}
-  m_PrefabInstance: {fileID: 204276014}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &538864061
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,8 +1400,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.04, y: 0.000015259}
-  m_SizeDelta: {x: 95.92, y: 73.27}
+  m_AnchoredPosition: {x: 1.9, y: 0.000015259}
+  m_SizeDelta: {x: 931.06635, y: 73.27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &538864063
 Animator:
@@ -1815,6 +1512,143 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538864061}
+  m_CullTransparentMesh: 0
+--- !u!1 &593580401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 593580402}
+  - component: {fileID: 593580408}
+  - component: {fileID: 593580407}
+  - component: {fileID: 593580406}
+  - component: {fileID: 593580405}
+  - component: {fileID: 593580404}
+  - component: {fileID: 593580403}
+  m_Layer: 5
+  m_Name: Nave  Ictioniclos Crucero (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &593580402
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593580401}
+  m_LocalRotation: {x: -0, y: -0, z: 0.99763507, w: 0.06873312}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1774494492}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 172.11801}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -112.99999, y: -12.00007}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &593580403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593580401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 6
+--- !u!114 &593580404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593580401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 0
+  Accesible: 0
+--- !u!70 &593580405
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593580401}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &593580406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593580401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 9
+  textoNave: "Nave crucero \nSepien\nEs la nave m\xE1s com\xFAn entre los ictioniclos,
+    es la nave m\xE1s peque\xF1a entre sus flotas, aunque no se debe tomar a la ligera
+    si no quieres caer antes de tiempo.\n*1 Comandante\n*70% Reclutas\n*30% Soldados"
+--- !u!114 &593580407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593580401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 069c0ac2936da644ca571b39d08949d1, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &593580408
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593580401}
   m_CullTransparentMesh: 0
 --- !u!1 &606657289
 GameObject:
@@ -2050,96 +1884,6 @@ Transform:
   m_Father: {fileID: 2140780787}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
---- !u!4 &694911290 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-    type: 3}
-  m_PrefabInstance: {fileID: 237431114}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &714524172
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 500976301}
-    m_Modifications:
-    - target: {fileID: -8640454152561608431, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: Nivel
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.26
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.045059375
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.99898434
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4355482283289172452, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Botaniclos Guerra
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: aea45565ea9b05f41bafd38008203953, type: 3}
 --- !u!1 &714931603
 GameObject:
   m_ObjectHideFlags: 0
@@ -2173,8 +1917,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1064, y: 332}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 1070, y: 332}
+  m_SizeDelta: {x: 961.1905, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &716544506
 PrefabInstance:
@@ -2280,96 +2024,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eaddf24b50d90024797ade2ef87ccf8f, type: 3}
---- !u!1001 &726637465
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 951744667}
-    m_Modifications:
-    - target: {fileID: 2791446505501070976, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: LevelId
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3447357006200657625, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Mutanos Guerra
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667445801674571396, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: Nivel
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.134365
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.04664569
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 109.12246
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.34958556
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9369045
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 40.924004
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: bac00811a488d2d4ca3a8e55b92822c8, type: 3}
---- !u!1 &731557450
+--- !u!1 &774456831
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2377,57 +2032,119 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 731557451}
-  - component: {fileID: 731557453}
-  - component: {fileID: 731557452}
-  m_Layer: 0
-  m_Name: Panel
+  - component: {fileID: 774456832}
+  - component: {fileID: 774456838}
+  - component: {fileID: 774456837}
+  - component: {fileID: 774456836}
+  - component: {fileID: 774456835}
+  - component: {fileID: 774456834}
+  - component: {fileID: 774456833}
+  m_Layer: 5
+  m_Name: Nave   Mecanos Crucero (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &731557451
+--- !u!224 &774456832
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 731557450}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 774456831}
+  m_LocalRotation: {x: -0, y: -0, z: -0.52749157, w: 0.8495603}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1075500792}
-  m_Father: {fileID: 1337391955}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_Children: []
+  m_Father: {fileID: 891473467}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -63.672005}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4.0000405, y: -242}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &731557452
+--- !u!114 &774456833
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 731557450}
+  m_GameObject: {fileID: 774456831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 14
+--- !u!114 &774456834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774456831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 0
+  Accesible: 0
+--- !u!70 &774456835
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774456831}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &774456836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774456831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 3
+  textoNave: "Nave crucero \nHayakyu\nEl crucero Hayakyu, fueron restos de una estaci\xF3n
+    espacial abandonada hasta que los mecanos dieron con todos ella, lentas pero
+    muy resistentes.\n"
+--- !u!114 &774456837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774456831}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 85e6723014c4ff742b9a4b0dc78d1bff, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2436,13 +2153,13 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &731557453
+--- !u!222 &774456838
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 731557450}
+  m_GameObject: {fileID: 774456831}
   m_CullTransparentMesh: 0
 --- !u!1 &777692480
 GameObject:
@@ -2717,6 +2434,236 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &891473466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 891473467}
+  - component: {fileID: 891473470}
+  - component: {fileID: 891473469}
+  - component: {fileID: 891473468}
+  m_Layer: 5
+  m_Name: Naves  Mecanos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &891473467
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891473466}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
+  m_Children:
+  - {fileID: 1698981936}
+  - {fileID: 341840959}
+  - {fileID: 167271502}
+  - {fileID: 2036822780}
+  - {fileID: 774456832}
+  - {fileID: 1562072568}
+  m_Father: {fileID: 1337391955}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -667, y: -48}
+  m_SizeDelta: {x: 654.18616, y: 500.26904}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &891473468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891473466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 11
+--- !u!114 &891473469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891473466}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &891473470
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891473466}
+  m_CullTransparentMesh: 0
+--- !u!1 &922454602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 922454603}
+  - component: {fileID: 922454609}
+  - component: {fileID: 922454608}
+  - component: {fileID: 922454607}
+  - component: {fileID: 922454606}
+  - component: {fileID: 922454605}
+  - component: {fileID: 922454604}
+  m_Layer: 5
+  m_Name: Nave Mutanos Crucero (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &922454603
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922454602}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7222965, w: 0.69158363}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1633600953}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 92.489006}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 222.99995, y: -12.999889}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &922454604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922454602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 17
+--- !u!114 &922454605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922454602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 0
+  Accesible: 0
+--- !u!70 &922454606
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922454602}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &922454607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922454602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 0
+  textoNave: "Nave crucero\nBlue sunset\nIna de las m\xE1s r\xE1pidas y comunes de
+    su clase dada sus proporciones aerodin\xE1micas.\r\n"
+--- !u!114 &922454608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922454602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e5d18609853ff794291d29517dd1fb5d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &922454609
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922454602}
+  m_CullTransparentMesh: 0
 --- !u!1 &930076138
 GameObject:
   m_ObjectHideFlags: 0
@@ -2841,7 +2788,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930076138}
   m_CullTransparentMesh: 0
---- !u!1 &951744666
+--- !u!1 &954172730
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2849,129 +2796,135 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 951744667}
-  m_Layer: 0
-  m_Name: Naves Mutanos
+  - component: {fileID: 954172731}
+  - component: {fileID: 954172737}
+  - component: {fileID: 954172736}
+  - component: {fileID: 954172735}
+  - component: {fileID: 954172734}
+  - component: {fileID: 954172733}
+  - component: {fileID: 954172732}
+  m_Layer: 5
+  m_Name: Nave  Ictioniclos Crucero (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &951744667
-Transform:
+--- !u!224 &954172731
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 951744666}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.9740243, y: -0.9063114, z: -94.76504}
-  m_LocalScale: {x: 3.5, y: 3.5, z: 1}
-  m_Children:
-  - {fileID: 531056617}
-  - {fileID: 30923049}
-  - {fileID: 694911290}
-  - {fileID: 1340681736}
-  - {fileID: 1789853307}
-  - {fileID: 2104925287}
-  m_Father: {fileID: 1620934106}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &970032082 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6535328518918538002, guid: 025323ab8746f254a9557c7924e37b0e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1354502231}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &995126418
-PrefabInstance:
+  m_GameObject: {fileID: 954172730}
+  m_LocalRotation: {x: -0, y: -0, z: 0.99945027, w: -0.0331534}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1774494492}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 183.79999}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -332.00073, y: 154.99979}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &954172732
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1358803365}
-    m_Modifications:
-    - target: {fileID: -1411996521407179013, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: Nivel
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 372301459542258469, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: LevelId
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.5497211
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.26993704
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 14.357422
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.410804
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.9117237
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -48.511
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3226149333991624422, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7283970689479155823, guid: f4ed61abe7d5f6d4596b03efadec7ebb,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Mecano Guerra
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f4ed61abe7d5f6d4596b03efadec7ebb, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954172730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 7
+--- !u!114 &954172733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954172730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 0
+  Accesible: 0
+--- !u!70 &954172734
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954172730}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &954172735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954172730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 9
+  textoNave: "Nave crucero \nSepien\nEs la nave m\xE1s com\xFAn entre los ictioniclos,
+    es la nave m\xE1s peque\xF1a entre sus flotas, aunque no se debe tomar a la ligera
+    si no quieres caer antes de tiempo.\n*1 Comandante\n*70% Reclutas\n*30% Soldados"
+--- !u!114 &954172736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954172730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 069c0ac2936da644ca571b39d08949d1, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &954172737
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954172730}
+  m_CullTransparentMesh: 0
 --- !u!1 &1030003726
 GameObject:
   m_ObjectHideFlags: 0
@@ -3054,7 +3007,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1082717956}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5167475
+  m_Size: 0.51674753
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3096,90 +3049,142 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030003726}
   m_CullTransparentMesh: 0
---- !u!1001 &1073441020
-PrefabInstance:
+--- !u!1 &1072936679
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 951744667}
-    m_Modifications:
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.107
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.228
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 109.12246
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.82251453
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5687441
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 110.675
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7140224523417429339, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Mutanos Crucero (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 9119145161528595516, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: LevelId
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7793f37fcd8fbb04f997daea0510c081, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1072936680}
+  - component: {fileID: 1072936686}
+  - component: {fileID: 1072936685}
+  - component: {fileID: 1072936684}
+  - component: {fileID: 1072936683}
+  - component: {fileID: 1072936682}
+  - component: {fileID: 1072936681}
+  m_Layer: 5
+  m_Name: Nave  Botaniclos Guerra (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1072936680
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072936679}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0004992202, w: 0.9999999}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1075500792}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.057000004}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -5, y: 68}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1072936681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072936679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 34
+--- !u!114 &1072936682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072936679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 1
+  Accesible: 0
+--- !u!70 &1072936683
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072936679}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &1072936684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072936679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 8
+  textoNave: "Nave de guerra \nPenthessel\nConsiste en el bulbo de una gran planta
+    carn\xEDvora, dise\xF1ada y modificada para arrasar por donde va."
+--- !u!114 &1072936685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072936679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7db244d3385daf040b23d99aeda00791, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1072936686
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072936679}
+  m_CullTransparentMesh: 0
 --- !u!1 &1075500791
 GameObject:
   m_ObjectHideFlags: 0
@@ -3191,8 +3196,9 @@ GameObject:
   - component: {fileID: 1075500792}
   - component: {fileID: 1075500794}
   - component: {fileID: 1075500793}
+  - component: {fileID: 1075500795}
   m_Layer: 5
-  m_Name: Naves Mutanos
+  m_Name: Naves Botaniclos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3207,18 +3213,21 @@ RectTransform:
   m_GameObject: {fileID: 1075500791}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children:
   - {fileID: 1382561163}
   - {fileID: 1587001265}
   - {fileID: 1542381867}
-  m_Father: {fileID: 731557451}
-  m_RootOrder: 0
+  - {fileID: 1072936680}
+  - {fileID: 1158339291}
+  - {fileID: 1726759167}
+  m_Father: {fileID: 1337391955}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -333.76}
-  m_SizeDelta: {x: 628.35876, y: 412.48145}
+  m_AnchoredPosition: {x: 8, y: -263}
+  m_SizeDelta: {x: 654.18616, y: 500.26904}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1075500793
 MonoBehaviour:
@@ -3227,7 +3236,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1075500791}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -3257,6 +3266,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1075500791}
   m_CullTransparentMesh: 0
+--- !u!114 &1075500795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075500791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 30
 --- !u!1 &1075579373
 GameObject:
   m_ObjectHideFlags: 0
@@ -3512,95 +3534,142 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1118628943}
   m_CullTransparentMesh: 1
---- !u!1001 &1138398500
-PrefabInstance:
+--- !u!1 &1158339290
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 951744667}
-    m_Modifications:
-    - target: {fileID: 6850742548437365229, guid: 963bb91704a7b9447b1a97eaea78a1a4,
-        type: 3}
-      propertyPath: LevelId
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6876162717673667669, guid: 963bb91704a7b9447b1a97eaea78a1a4,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Mutanos Expedicion
-      objectReference: {fileID: 0}
-    - target: {fileID: 7512788893828420016, guid: 963bb91704a7b9447b1a97eaea78a1a4,
-        type: 3}
-      propertyPath: Nivel
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7710210191983497062, guid: 963bb91704a7b9447b1a97eaea78a1a4,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.4971426
-      objectReference: {fileID: 0}
-    - target: {fileID: 7710210191983497062, guid: 963bb91704a7b9447b1a97eaea78a1a4,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.2709909
-      objectReference: {fileID: 0}
-    - target: {fileID: 7710210191983497062, guid: 963bb91704a7b9447b1a97eaea78a1a4,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 109.12246
-      objectReference: {fileID: 0}
-    - target: {fileID: 7710210191983497062, guid: 963bb91704a7b9447b1a97eaea78a1a4,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7710210191983497062, guid: 963bb91704a7b9447b1a97eaea78a1a4,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7710210191983497062, guid: 963bb91704a7b9447b1a97eaea78a1a4,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.29324648
-      objectReference: {fileID: 0}
-    - target: {fileID: 7710210191983497062, guid: 963bb91704a7b9447b1a97eaea78a1a4,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9560369
-      objectReference: {fileID: 0}
-    - target: {fileID: 7710210191983497062, guid: 963bb91704a7b9447b1a97eaea78a1a4,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7710210191983497062, guid: 963bb91704a7b9447b1a97eaea78a1a4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7710210191983497062, guid: 963bb91704a7b9447b1a97eaea78a1a4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7710210191983497062, guid: 963bb91704a7b9447b1a97eaea78a1a4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 34.105003
-      objectReference: {fileID: 0}
-    - target: {fileID: 7710210191983497062, guid: 963bb91704a7b9447b1a97eaea78a1a4,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7710210191983497062, guid: 963bb91704a7b9447b1a97eaea78a1a4,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 963bb91704a7b9447b1a97eaea78a1a4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1158339291}
+  - component: {fileID: 1158339297}
+  - component: {fileID: 1158339296}
+  - component: {fileID: 1158339295}
+  - component: {fileID: 1158339294}
+  - component: {fileID: 1158339293}
+  - component: {fileID: 1158339292}
+  m_Layer: 5
+  m_Name: 'Nave  Botaniclos Guerra '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1158339291
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158339290}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0124148885, w: 0.99992293}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1075500792}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.4230001}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -231, y: 143}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1158339292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158339290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 35
+--- !u!114 &1158339293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158339290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 2
+  Accesible: 0
+--- !u!70 &1158339294
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158339290}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &1158339295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158339290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 8
+  textoNave: "Nave de guerra \nPenthessel\nConsiste en el bulbo de una gran planta
+    carn\xEDvora, dise\xF1ada y modificada para arrasar por donde va."
+--- !u!114 &1158339296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158339290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7db244d3385daf040b23d99aeda00791, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1158339297
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158339290}
+  m_CullTransparentMesh: 0
 --- !u!1 &1164803242
 GameObject:
   m_ObjectHideFlags: 0
@@ -3764,169 +3833,142 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164803242}
   m_CullTransparentMesh: 1
---- !u!1001 &1240297797
-PrefabInstance:
+--- !u!1 &1167974480
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 500976301}
-    m_Modifications:
-    - target: {fileID: -8640454152561608431, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: Nivel
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -5.1650004
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4355482283289172452, guid: aea45565ea9b05f41bafd38008203953,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Botaniclos Guerra (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: aea45565ea9b05f41bafd38008203953, type: 3}
---- !u!1001 &1247319929
-PrefabInstance:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1167974481}
+  - component: {fileID: 1167974487}
+  - component: {fileID: 1167974486}
+  - component: {fileID: 1167974485}
+  - component: {fileID: 1167974484}
+  - component: {fileID: 1167974483}
+  - component: {fileID: 1167974482}
+  m_Layer: 5
+  m_Name: Nave Ictioniclos Expedicion (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1167974481
+RectTransform:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 500976301}
-    m_Modifications:
-    - target: {fileID: 1774018789696087272, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Botaniclos Crucero
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.97704184
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.5201098
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.11680534
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.9931549
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 8.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3b529a000dcc6cb45ac3ad50c94baeb1, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167974480}
+  m_LocalRotation: {x: -0, y: -0, z: 0.99708414, w: 0.07631014}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1774494492}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 171.24701}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 393, y: -147}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1167974482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167974480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 3
+--- !u!114 &1167974483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167974480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 1
+  Accesible: 0
+--- !u!70 &1167974484
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167974480}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &1167974485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167974480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 10
+  textoNave: "Nave de expedici\xF3n \nSishell\nLa nave intermedia de las tropas acu\xE1ticas,utilizaron
+    grandes artefactos para dar una forma de concha a esta nave."
+--- !u!114 &1167974486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167974480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ac34fdbe7962f7e45b50a6e88531f8e0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1167974487
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167974480}
+  m_CullTransparentMesh: 0
 --- !u!1 &1265699696
 GameObject:
   m_ObjectHideFlags: 0
@@ -4008,132 +4050,6 @@ Transform:
   m_Father: {fileID: 2140780787}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -180, y: 0, z: 0}
---- !u!4 &1303994160 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3382412332436690545, guid: 3b529a000dcc6cb45ac3ad50c94baeb1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1247319929}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1328156060
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1331954513}
-    m_Modifications:
-    - target: {fileID: -3278496413794092850, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: Nivel
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.076999985
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.117999986
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.9996686
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.02574236
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 177.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5238240163781667936, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Ictioniclos Expedicion
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2064254b812fa114cba33ddcc4765984, type: 3}
---- !u!1 &1331954512
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1331954513}
-  m_Layer: 0
-  m_Name: Naves Ictioniclos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1331954513
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1331954512}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.29315, y: 1.4935939, z: 14.357422}
-  m_LocalScale: {x: 3.5, y: 3.5, z: 0}
-  m_Children:
-  - {fileID: 2112442071}
-  - {fileID: 381349245}
-  - {fileID: 300423230}
-  - {fileID: 1902886869}
-  - {fileID: 1940393990}
-  - {fileID: 103632781}
-  m_Father: {fileID: 1620934106}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1337391951
 GameObject:
   m_ObjectHideFlags: 0
@@ -4224,136 +4140,18 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 731557451}
+  - {fileID: 1633600953}
+  - {fileID: 1075500792}
+  - {fileID: 891473467}
+  - {fileID: 1774494492}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!4 &1340681736 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7497545047145329199, guid: bac00811a488d2d4ca3a8e55b92822c8,
-    type: 3}
-  m_PrefabInstance: {fileID: 726637465}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1354502231
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 500976301}
-    m_Modifications:
-    - target: {fileID: 4642119568295894958, guid: 025323ab8746f254a9557c7924e37b0e,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Botaniclos Expedicion
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535328518918538002, guid: 025323ab8746f254a9557c7924e37b0e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.008052384
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535328518918538002, guid: 025323ab8746f254a9557c7924e37b0e,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.60190636
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535328518918538002, guid: 025323ab8746f254a9557c7924e37b0e,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535328518918538002, guid: 025323ab8746f254a9557c7924e37b0e,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535328518918538002, guid: 025323ab8746f254a9557c7924e37b0e,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535328518918538002, guid: 025323ab8746f254a9557c7924e37b0e,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.045059375
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535328518918538002, guid: 025323ab8746f254a9557c7924e37b0e,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.99898434
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535328518918538002, guid: 025323ab8746f254a9557c7924e37b0e,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535328518918538002, guid: 025323ab8746f254a9557c7924e37b0e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535328518918538002, guid: 025323ab8746f254a9557c7924e37b0e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535328518918538002, guid: 025323ab8746f254a9557c7924e37b0e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535328518918538002, guid: 025323ab8746f254a9557c7924e37b0e,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535328518918538002, guid: 025323ab8746f254a9557c7924e37b0e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 025323ab8746f254a9557c7924e37b0e, type: 3}
---- !u!1 &1358803364
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1358803365}
-  m_Layer: 0
-  m_Name: Naves Mecanos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1358803365
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358803364}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.5, y: 3.5, z: 1}
-  m_Children:
-  - {fileID: 1682172758}
-  - {fileID: 1430400578}
-  - {fileID: 155024562}
-  - {fileID: 259788045}
-  - {fileID: 2073379100}
-  - {fileID: 1486408649}
-  m_Father: {fileID: 1620934106}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1382561162
 GameObject:
   m_ObjectHideFlags: 0
@@ -4370,7 +4168,7 @@ GameObject:
   - component: {fileID: 1382561164}
   - component: {fileID: 1382561169}
   m_Layer: 5
-  m_Name: Nave Mutanos Crucero
+  m_Name: Nave  Botaniclos Expedicion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4383,16 +4181,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1382561162}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0079542715, w: 0.99996835}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1075500792}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.91200006}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 106, y: 79}
+  m_AnchoredPosition: {x: 0, y: -115}
   m_SizeDelta: {x: 265.05304, y: 265.05307}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1382561164
@@ -4407,7 +4205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Nivel: 0
+  Nivel: 1
   Accesible: 0
 --- !u!70 &1382561165
 CapsuleCollider2D:
@@ -4437,9 +4235,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelId: 0
-  textoNave: "Nave crucero\nBlue sunset\nIna de las m\xE1s r\xE1pidas y comunes de
-    su clase dada sus proporciones aerodin\xE1micas.\r\n"
+  LevelId: 7
+  textoNave: "Nave de expedici\xF3n \nShitofune\nEsta nave en forma de hoja puede
+    ver todo lo que rodea la nave y cuenta con una gran maniobrabilidad.\r"
 --- !u!114 &1382561167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4459,7 +4257,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e5d18609853ff794291d29517dd1fb5d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2027cdbb784368041a294661be507e36, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4489,13 +4287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  layer: 6
---- !u!4 &1430400578 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-    type: 3}
-  m_PrefabInstance: {fileID: 295768241}
-  m_PrefabAsset: {fileID: 0}
+  layer: 33
 --- !u!1001 &1448383621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4600,18 +4392,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eaddf24b50d90024797ade2ef87ccf8f, type: 3}
---- !u!4 &1486408649 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-    type: 3}
-  m_PrefabInstance: {fileID: 1987866469}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1532485825 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-    type: 3}
-  m_PrefabInstance: {fileID: 714524172}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1542381866
 GameObject:
   m_ObjectHideFlags: 0
@@ -4628,7 +4408,7 @@ GameObject:
   - component: {fileID: 1542381869}
   - component: {fileID: 1542381868}
   m_Layer: 5
-  m_Name: Nave Mutanos Crucero (2)
+  m_Name: Nave  Botaniclos Crucero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4641,16 +4421,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542381866}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.02497722, w: 0.999688}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1075500792}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 2.8620002}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -135, y: -112}
+  m_AnchoredPosition: {x: 226, y: -235}
   m_SizeDelta: {x: 265.05304, y: 265.05307}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1542381868
@@ -4665,7 +4445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  layer: 2
+  layer: 31
 --- !u!114 &1542381869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4708,9 +4488,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelId: 0
-  textoNave: "Nave crucero\nBlue sunset\nIna de las m\xE1s r\xE1pidas y comunes de
-    su clase dada sus proporciones aerodin\xE1micas.\r\n"
+  LevelId: 6
+  textoNave: "Nave crucero \nBlosship\nLa m\xE1s r\xE1pida y com\xFAn entre su flota,
+    esta es una flor de gran tama\xF1o, a la cual incluyeron la tecnolog\xEDa m\xE1s
+    puntera.\r"
 --- !u!114 &1542381872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4730,7 +4511,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e5d18609853ff794291d29517dd1fb5d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 93302456b4566a946871ba2a798830ec, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4748,94 +4529,143 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542381866}
   m_CullTransparentMesh: 0
---- !u!1001 &1558492167
-PrefabInstance:
+--- !u!1 &1546741914
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1358803365}
-    m_Modifications:
-    - target: {fileID: -8261527818785111105, guid: 638b5271074a53442b2b1b653120d801,
-        type: 3}
-      propertyPath: Nivel
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1478390013, guid: 638b5271074a53442b2b1b653120d801, type: 3}
-      propertyPath: LevelId
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7047253411471677379, guid: 638b5271074a53442b2b1b653120d801,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Mecano Expedicion
-      objectReference: {fileID: 0}
-    - target: {fileID: 7467515429851032811, guid: 638b5271074a53442b2b1b653120d801,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.029721
-      objectReference: {fileID: 0}
-    - target: {fileID: 7467515429851032811, guid: 638b5271074a53442b2b1b653120d801,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.11006294
-      objectReference: {fileID: 0}
-    - target: {fileID: 7467515429851032811, guid: 638b5271074a53442b2b1b653120d801,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 14.357422
-      objectReference: {fileID: 0}
-    - target: {fileID: 7467515429851032811, guid: 638b5271074a53442b2b1b653120d801,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7467515429851032811, guid: 638b5271074a53442b2b1b653120d801,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7467515429851032811, guid: 638b5271074a53442b2b1b653120d801,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.9202827
-      objectReference: {fileID: 0}
-    - target: {fileID: 7467515429851032811, guid: 638b5271074a53442b2b1b653120d801,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.39125398
-      objectReference: {fileID: 0}
-    - target: {fileID: 7467515429851032811, guid: 638b5271074a53442b2b1b653120d801,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7467515429851032811, guid: 638b5271074a53442b2b1b653120d801,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7467515429851032811, guid: 638b5271074a53442b2b1b653120d801,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7467515429851032811, guid: 638b5271074a53442b2b1b653120d801,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -133.93501
-      objectReference: {fileID: 0}
-    - target: {fileID: 7467515429851032811, guid: 638b5271074a53442b2b1b653120d801,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7467515429851032811, guid: 638b5271074a53442b2b1b653120d801,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 638b5271074a53442b2b1b653120d801, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1546741915}
+  - component: {fileID: 1546741921}
+  - component: {fileID: 1546741920}
+  - component: {fileID: 1546741919}
+  - component: {fileID: 1546741918}
+  - component: {fileID: 1546741917}
+  - component: {fileID: 1546741916}
+  m_Layer: 5
+  m_Name: 'Nave Ictioniclos Guerra '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1546741915
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546741914}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9990753, w: -0.04299508}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1774494492}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 184.928}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -349, y: -158}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1546741916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546741914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 4
+--- !u!114 &1546741917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546741914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 2
+  Accesible: 0
+--- !u!70 &1546741918
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546741914}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &1546741919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546741914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 11
+  textoNave: "Nave de guerra \nJellwar\nLa mas poderosa de las naves ictioniclas,
+    la cual cuenta con tres ap\xE9ndicesforma de tent\xE1culo que conectan directamente
+    con los pisos de la misma."
+--- !u!114 &1546741920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546741914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0124daa63baf3f740a47423e3da7235c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1546741921
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546741914}
+  m_CullTransparentMesh: 0
 --- !u!1 &1561939547
 GameObject:
   m_ObjectHideFlags: 0
@@ -4914,6 +4744,143 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561939547}
   m_CullTransparentMesh: 0
+--- !u!1 &1562072567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1562072568}
+  - component: {fileID: 1562072574}
+  - component: {fileID: 1562072573}
+  - component: {fileID: 1562072572}
+  - component: {fileID: 1562072571}
+  - component: {fileID: 1562072570}
+  - component: {fileID: 1562072569}
+  m_Layer: 5
+  m_Name: Nave   Mecanos Guerra (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1562072568
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562072567}
+  m_LocalRotation: {x: -0, y: -0, z: -0.9684566, w: 0.24918216}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 891473467}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -151.14201}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 203, y: 161}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1562072569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562072567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 22
+--- !u!114 &1562072570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562072567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 2
+  Accesible: 0
+--- !u!70 &1562072571
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562072567}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &1562072572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562072567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 5
+  textoNave: " NAVE DE GUERRA \nWALNET\nEsta nave es la m\xE1s grande del universo,
+    creada a partir de sat\xE9lites, asteroides y planetas enanos, esta nave arrasa
+    todo a su paso, cuenta con anillas que rodean y protegen la nave."
+--- !u!114 &1562072573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562072567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: be6231e442f21e0429d0d03fe30b28e4, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1562072574
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562072567}
+  m_CullTransparentMesh: 0
 --- !u!1 &1587001264
 GameObject:
   m_ObjectHideFlags: 0
@@ -4930,7 +4897,7 @@ GameObject:
   - component: {fileID: 1587001267}
   - component: {fileID: 1587001266}
   m_Layer: 5
-  m_Name: Nave Mutanos Crucero (1)
+  m_Name: Nave  Botaniclos Crucero (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4943,16 +4910,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587001264}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.054665916, w: 0.9985047}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1075500792}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 6.267}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6, y: 0.000015258789}
+  m_AnchoredPosition: {x: -242, y: -232}
   m_SizeDelta: {x: 265.05304, y: 265.05307}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1587001266
@@ -4967,7 +4934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  layer: 4
+  layer: 32
 --- !u!114 &1587001267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5010,9 +4977,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelId: 0
-  textoNave: "Nave crucero\nBlue sunset\nIna de las m\xE1s r\xE1pidas y comunes de
-    su clase dada sus proporciones aerodin\xE1micas.\r\n"
+  LevelId: 6
+  textoNave: "Nave crucero \nBlosship\nLa m\xE1s r\xE1pida y com\xFAn entre su flota,
+    esta es una flor de gran tama\xF1o, a la cual incluyeron la tecnolog\xEDa m\xE1s
+    puntera.\r"
 --- !u!114 &1587001270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5032,7 +5000,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e5d18609853ff794291d29517dd1fb5d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 93302456b4566a946871ba2a798830ec, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5082,117 +5050,165 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.61402404, y: -0.055220306, z: -14.357422}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 951744667}
-  - {fileID: 500976301}
-  - {fileID: 1331954513}
-  - {fileID: 1358803365}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1659410216
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1331954513}
-    m_Modifications:
-    - target: {fileID: 2613366586084723645, guid: 62ebb55e0d0d875468ab5f1a6afda57e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.899
-      objectReference: {fileID: 0}
-    - target: {fileID: 2613366586084723645, guid: 62ebb55e0d0d875468ab5f1a6afda57e,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.056
-      objectReference: {fileID: 0}
-    - target: {fileID: 2613366586084723645, guid: 62ebb55e0d0d875468ab5f1a6afda57e,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2613366586084723645, guid: 62ebb55e0d0d875468ab5f1a6afda57e,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2613366586084723645, guid: 62ebb55e0d0d875468ab5f1a6afda57e,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2613366586084723645, guid: 62ebb55e0d0d875468ab5f1a6afda57e,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.9977155
-      objectReference: {fileID: 0}
-    - target: {fileID: 2613366586084723645, guid: 62ebb55e0d0d875468ab5f1a6afda57e,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.06755705
-      objectReference: {fileID: 0}
-    - target: {fileID: 2613366586084723645, guid: 62ebb55e0d0d875468ab5f1a6afda57e,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2613366586084723645, guid: 62ebb55e0d0d875468ab5f1a6afda57e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2613366586084723645, guid: 62ebb55e0d0d875468ab5f1a6afda57e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2613366586084723645, guid: 62ebb55e0d0d875468ab5f1a6afda57e,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 187.747
-      objectReference: {fileID: 0}
-    - target: {fileID: 2613366586084723645, guid: 62ebb55e0d0d875468ab5f1a6afda57e,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2613366586084723645, guid: 62ebb55e0d0d875468ab5f1a6afda57e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2980951303774358786, guid: 62ebb55e0d0d875468ab5f1a6afda57e,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Ictioniclos Guerra
-      objectReference: {fileID: 0}
-    - target: {fileID: 7188810037967073654, guid: 62ebb55e0d0d875468ab5f1a6afda57e,
-        type: 3}
-      propertyPath: Nivel
-      value: 2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 62ebb55e0d0d875468ab5f1a6afda57e, type: 3}
---- !u!1 &1682172757 stripped
+--- !u!1 &1633600952
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 6869865755510830295, guid: 951275703352bcd45bf1fc9bc30bff33,
-    type: 3}
-  m_PrefabInstance: {fileID: 111194214}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1682172758 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-    type: 3}
-  m_PrefabInstance: {fileID: 111194214}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1633600953}
+  - component: {fileID: 1633600956}
+  - component: {fileID: 1633600955}
+  - component: {fileID: 1633600954}
+  m_Layer: 5
+  m_Name: Naves Mutanos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1633600953
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1682172759
+  m_GameObject: {fileID: 1633600952}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.6000874, y: 0.6000874, z: 1.0005053}
+  m_Children:
+  - {fileID: 2118700865}
+  - {fileID: 922454603}
+  - {fileID: 1646874989}
+  - {fileID: 52749553}
+  - {fileID: 1805526491}
+  - {fileID: 1833579898}
+  m_Father: {fileID: 1337391955}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 719, y: -42.5}
+  m_SizeDelta: {x: 654.18616, y: 500.26904}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1633600954
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1682172757}
+  m_GameObject: {fileID: 1633600952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 10
+--- !u!114 &1633600955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633600952}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1633600956
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633600952}
+  m_CullTransparentMesh: 0
+--- !u!1 &1646874988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1646874989}
+  - component: {fileID: 1646874995}
+  - component: {fileID: 1646874994}
+  - component: {fileID: 1646874993}
+  - component: {fileID: 1646874992}
+  - component: {fileID: 1646874991}
+  - component: {fileID: 1646874990}
+  m_Layer: 5
+  m_Name: Nave Mutanos Crucero (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1646874989
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646874988}
+  m_LocalRotation: {x: -0, y: -0, z: 0.50070703, w: 0.86561686}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1633600953}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 60.094}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 213, y: -209}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1646874990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646874988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 13
+--- !u!114 &1646874991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646874988}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
@@ -5200,102 +5216,849 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Nivel: 0
   Accesible: 0
---- !u!1001 &1730608813
-PrefabInstance:
+--- !u!70 &1646874992
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1331954513}
-    m_Modifications:
-    - target: {fileID: -3278496413794092850, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: Nivel
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.243
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.033
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.99137205
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.13107824
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 164.936
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5238240163781667936, guid: 2064254b812fa114cba33ddcc4765984,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Ictioniclos Expedicion (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2064254b812fa114cba33ddcc4765984, type: 3}
---- !u!4 &1734396046 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-    type: 3}
-  m_PrefabInstance: {fileID: 218774663}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1789853307 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-    type: 3}
-  m_PrefabInstance: {fileID: 1908518556}
+  m_GameObject: {fileID: 1646874988}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &1646874993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646874988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 0
+  textoNave: "Nave crucero\nBlue sunset\nIna de las m\xE1s r\xE1pidas y comunes de
+    su clase dada sus proporciones aerodin\xE1micas.\r\n"
+--- !u!114 &1646874994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646874988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e5d18609853ff794291d29517dd1fb5d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1646874995
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646874988}
+  m_CullTransparentMesh: 0
+--- !u!1 &1698981935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1698981936}
+  - component: {fileID: 1698981942}
+  - component: {fileID: 1698981941}
+  - component: {fileID: 1698981940}
+  - component: {fileID: 1698981939}
+  - component: {fileID: 1698981938}
+  - component: {fileID: 1698981937}
+  m_Layer: 5
+  m_Name: Nave   Mecanos Expedicion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1698981936
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698981935}
+  m_LocalRotation: {x: -0, y: -0, z: -0.6996844, w: 0.7144521}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 891473467}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -88.803}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -36, y: -25}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1698981937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698981935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 18
+--- !u!114 &1698981938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698981935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 1
+  Accesible: 0
+--- !u!70 &1698981939
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698981935}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &1698981940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698981935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 4
+  textoNave: " NAVE DE GUERRA \nWALNET\nEsta nave es la m\xE1s grande del universo,
+    creada a partir de sat\xE9lites, asteroides y planetas enanos, esta nave arrasa
+    todo a su paso, cuenta con anillas que rodean y protegen la nave."
+--- !u!114 &1698981941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698981935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a116ec7248cf9fd46a1869beb07f6f55, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1698981942
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698981935}
+  m_CullTransparentMesh: 0
+--- !u!1 &1726759166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1726759167}
+  - component: {fileID: 1726759173}
+  - component: {fileID: 1726759172}
+  - component: {fileID: 1726759171}
+  - component: {fileID: 1726759170}
+  - component: {fileID: 1726759169}
+  - component: {fileID: 1726759168}
+  m_Layer: 5
+  m_Name: Nave  Botaniclos Guerra (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1726759167
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726759166}
+  m_LocalRotation: {x: -0, y: -0, z: -0.00628636, w: 0.9999803}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1075500792}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.72}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 226, y: 159}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1726759168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726759166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 36
+--- !u!114 &1726759169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726759166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 2
+  Accesible: 0
+--- !u!70 &1726759170
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726759166}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &1726759171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726759166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 8
+  textoNave: "Nave de guerra \nPenthessel\nConsiste en el bulbo de una gran planta
+    carn\xEDvora, dise\xF1ada y modificada para arrasar por donde va."
+--- !u!114 &1726759172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726759166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 7db244d3385daf040b23d99aeda00791, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1726759173
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726759166}
+  m_CullTransparentMesh: 0
+--- !u!1 &1774494491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1774494492}
+  - component: {fileID: 1774494495}
+  - component: {fileID: 1774494494}
+  - component: {fileID: 1774494493}
+  m_Layer: 5
+  m_Name: Naves  Ictioniclos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1774494492
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774494491}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
+  m_Children:
+  - {fileID: 1828446810}
+  - {fileID: 1546741915}
+  - {fileID: 231259227}
+  - {fileID: 1167974481}
+  - {fileID: 593580402}
+  - {fileID: 954172731}
+  m_Father: {fileID: 1337391955}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -12, y: 288}
+  m_SizeDelta: {x: 1066.0717, y: 500.26904}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1774494493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774494491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 2
+--- !u!114 &1774494494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774494491}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1774494495
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774494491}
+  m_CullTransparentMesh: 0
+--- !u!1 &1805526490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1805526491}
+  - component: {fileID: 1805526497}
+  - component: {fileID: 1805526496}
+  - component: {fileID: 1805526495}
+  - component: {fileID: 1805526494}
+  - component: {fileID: 1805526493}
+  - component: {fileID: 1805526492}
+  m_Layer: 5
+  m_Name: 'Nave Mutanos Guerra '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1805526491
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805526490}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7680634, w: 0.6403738}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1633600953}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 100.36101}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -259, y: 82}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1805526492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805526490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 21
+--- !u!114 &1805526493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805526490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 2
+  Accesible: 0
+--- !u!70 &1805526494
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805526490}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &1805526495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805526490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 2
+  textoNave: "Nave de guerra\nKurowake\nEs una de las m\xE1s poderosas del universo
+    y pocos la desean ver en combate."
+--- !u!114 &1805526496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805526490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 43d23df2cc6c2d248a3e20e5fe045b29, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1805526497
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805526490}
+  m_CullTransparentMesh: 0
+--- !u!1 &1828446809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1828446810}
+  - component: {fileID: 1828446816}
+  - component: {fileID: 1828446815}
+  - component: {fileID: 1828446814}
+  - component: {fileID: 1828446813}
+  - component: {fileID: 1828446812}
+  - component: {fileID: 1828446811}
+  m_Layer: 5
+  m_Name: Nave Ictioniclos Expedicion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1828446810
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828446809}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9957896, w: 0.09166888}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1774494492}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 169.481}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 187, y: 19}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1828446811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828446809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 5
+--- !u!114 &1828446812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828446809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 1
+  Accesible: 0
+--- !u!70 &1828446813
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828446809}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &1828446814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828446809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 10
+  textoNave: "Nave de expedici\xF3n \nSishell\nLa nave intermedia de las tropas acu\xE1ticas,utilizaron
+    grandes artefactos para dar una forma de concha a esta nave."
+--- !u!114 &1828446815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828446809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ac34fdbe7962f7e45b50a6e88531f8e0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1828446816
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828446809}
+  m_CullTransparentMesh: 0
+--- !u!1 &1833579897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1833579898}
+  - component: {fileID: 1833579904}
+  - component: {fileID: 1833579903}
+  - component: {fileID: 1833579902}
+  - component: {fileID: 1833579901}
+  - component: {fileID: 1833579900}
+  - component: {fileID: 1833579899}
+  m_Layer: 5
+  m_Name: Nave Mutanos Guerra (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1833579898
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833579897}
+  m_LocalRotation: {x: -0, y: -0, z: 0.5547243, w: 0.8320343}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1633600953}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 67.383}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -303, y: -130}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1833579899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833579897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 15
+--- !u!114 &1833579900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833579897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 2
+  Accesible: 0
+--- !u!70 &1833579901
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833579897}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &1833579902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833579897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 2
+  textoNave: "Nave de guerra\nKurowake\nEs una de las m\xE1s poderosas del universo
+    y pocos la desean ver en combate."
+--- !u!114 &1833579903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833579897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 43d23df2cc6c2d248a3e20e5fe045b29, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1833579904
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833579897}
+  m_CullTransparentMesh: 0
 --- !u!1 &1869425042
 GameObject:
   m_ObjectHideFlags: 0
@@ -5600,12 +6363,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1873185552}
   m_CullTransparentMesh: 0
---- !u!4 &1902886869 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1829872955301582071, guid: 2064254b812fa114cba33ddcc4765984,
-    type: 3}
-  m_PrefabInstance: {fileID: 1328156060}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1906338196 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7286830161196507929, guid: eaddf24b50d90024797ade2ef87ccf8f,
@@ -5701,270 +6458,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1908277996}
   m_CullTransparentMesh: 0
---- !u!1001 &1908518556
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 951744667}
-    m_Modifications:
-    - target: {fileID: -388816634260236911, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: Nivel
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.7942858
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.14768396
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 109.12246
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.72705907
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.68657494
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 93.281006
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4359947916333791211, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7140224523417429339, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Mutanos Crucero
-      objectReference: {fileID: 0}
-    - target: {fileID: 9119145161528595516, guid: 7793f37fcd8fbb04f997daea0510c081,
-        type: 3}
-      propertyPath: LevelId
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7793f37fcd8fbb04f997daea0510c081, type: 3}
---- !u!4 &1933774698 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3354400494937136070, guid: aea45565ea9b05f41bafd38008203953,
-    type: 3}
-  m_PrefabInstance: {fileID: 1240297797}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1940393990 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-    type: 3}
-  m_PrefabInstance: {fileID: 124596287}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1982754150
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1331954513}
-    m_Modifications:
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.948
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.201
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.99754435
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.07003796
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 188.032
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6780876076840555519, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Ictioniclos Crucero
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2a882ac51d8c7614f825a1f45cd377f7, type: 3}
---- !u!1001 &1987866469
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1358803365}
-    m_Modifications:
-    - target: {fileID: -209342069644414262, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: LevelId
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.3325782
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.11006294
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 14.357422
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.9240647
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.38223627
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -135.05501
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144361577046022814, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6869865755510830295, guid: 951275703352bcd45bf1fc9bc30bff33,
-        type: 3}
-      propertyPath: m_Name
-      value: Nave Mecanos Crucero
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 951275703352bcd45bf1fc9bc30bff33, type: 3}
 --- !u!1 &1988738952
 GameObject:
   m_ObjectHideFlags: 0
@@ -6001,7 +6494,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -28.489998, y: 7.799999}
+  m_AnchoredPosition: {x: -28.48999, y: 7.799999}
   m_SizeDelta: {x: 55.979996, y: 29.099995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1988738954
@@ -6277,30 +6770,285 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eaddf24b50d90024797ade2ef87ccf8f, type: 3}
---- !u!4 &2073379100 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7467515429851032811, guid: 638b5271074a53442b2b1b653120d801,
-    type: 3}
-  m_PrefabInstance: {fileID: 1558492167}
+--- !u!1 &2036822779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &2104925287 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7710210191983497062, guid: 963bb91704a7b9447b1a97eaea78a1a4,
-    type: 3}
-  m_PrefabInstance: {fileID: 1138398500}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2036822780}
+  - component: {fileID: 2036822786}
+  - component: {fileID: 2036822785}
+  - component: {fileID: 2036822784}
+  - component: {fileID: 2036822783}
+  - component: {fileID: 2036822782}
+  - component: {fileID: 2036822781}
+  m_Layer: 5
+  m_Name: 'Nave   Mecanos Guerra '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2036822780
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036822779}
+  m_LocalRotation: {x: -0, y: -0, z: -0.878614, w: 0.47753274}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 891473467}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -122.951004}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -231, y: 143}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2036822781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036822779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 20
+--- !u!114 &2036822782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036822779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 2
+  Accesible: 0
+--- !u!70 &2036822783
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036822779}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &2036822784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036822779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 5
+  textoNave: " NAVE DE GUERRA \nWALNET\nEsta nave es la m\xE1s grande del universo,
+    creada a partir de sat\xE9lites, asteroides y planetas enanos, esta nave arrasa
+    todo a su paso, cuenta con anillas que rodean y protegen la nave."
+--- !u!114 &2036822785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036822779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: be6231e442f21e0429d0d03fe30b28e4, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2036822786
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036822779}
+  m_CullTransparentMesh: 0
 --- !u!4 &2106903613 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9213706886819584650, guid: 3022628a4c4e87341b7ee87fcfe7bbf2,
     type: 3}
   m_PrefabInstance: {fileID: 360295361}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &2112442071 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1165617459314233268, guid: 2a882ac51d8c7614f825a1f45cd377f7,
-    type: 3}
-  m_PrefabInstance: {fileID: 418425110}
+--- !u!1 &2118700864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2118700865}
+  - component: {fileID: 2118700871}
+  - component: {fileID: 2118700870}
+  - component: {fileID: 2118700869}
+  - component: {fileID: 2118700868}
+  - component: {fileID: 2118700867}
+  - component: {fileID: 2118700866}
+  m_Layer: 5
+  m_Name: Nave Mutanos Crucero
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2118700865
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118700864}
+  m_LocalRotation: {x: -0, y: -0, z: 0.8915846, w: 0.45285422}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1633600953}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 126.146}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 156, y: 162}
+  m_SizeDelta: {x: 265.05304, y: 265.05307}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2118700866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118700864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca8d465e136359b46a5eb56a95216987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layer: 23
+--- !u!114 &2118700867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118700864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c43d2eb8c4791f4989badbcfa303474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Nivel: 0
+  Accesible: 0
+--- !u!70 &2118700868
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118700864}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.9927773, y: 3.729919}
+  m_Size: {x: 133.4533, y: 62.997074}
+  m_Direction: 1
+--- !u!114 &2118700869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118700864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac6af7722d3afd45a698e8d330b905c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelId: 0
+  textoNave: "Nave crucero\nBlue sunset\nIna de las m\xE1s r\xE1pidas y comunes de
+    su clase dada sus proporciones aerodin\xE1micas.\r\n"
+--- !u!114 &2118700870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118700864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e5d18609853ff794291d29517dd1fb5d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2118700871
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118700864}
+  m_CullTransparentMesh: 0
 --- !u!1 &2138860473
 GameObject:
   m_ObjectHideFlags: 0

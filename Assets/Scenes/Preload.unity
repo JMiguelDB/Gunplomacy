@@ -251,6 +251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3a5d4e7e6c192b4fad18f3c5e9db519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  multiplicadorDeDesplazamiento: 0.24
   debug: 0
   debugPosicionesVacios: 0
   debugPosicionesOcupadas: 0
