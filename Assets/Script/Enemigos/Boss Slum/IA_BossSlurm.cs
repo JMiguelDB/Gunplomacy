@@ -13,7 +13,7 @@ public class IA_BossSlurm : MonoBehaviour
     SpriteRenderer SrBola;
     Transform player;
     Animator mA;
-    VidaEnemigos vidaScrip;
+    //VidaEnemigos vidaScrip;
     //public Animation animacion;
     bool Puedotacar = false;
     bool Atacando = false;
@@ -30,7 +30,7 @@ public class IA_BossSlurm : MonoBehaviour
         SrBola = transform.GetChild(1).GetComponent<SpriteRenderer>();
         player = GameObject.Find("Player").GetComponent<Transform>();
         mA = GetComponent<Animator>();
-        vidaScrip = GetComponent<VidaEnemigos>();
+        //vidaScrip = GetComponent<VidaEnemigos>();
     }
 
     private void Update()

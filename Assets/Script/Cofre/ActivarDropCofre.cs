@@ -29,12 +29,12 @@ public class ActivarDropCofre : MonoBehaviour
         if(contactoPlayer && Input.GetButtonDown("Interactuar"))
         {
             mSr.sprite = cofreAbierto;
-            activarDrop.drop = true;
+            //activarDrop.drop = true;
             colliderDetector.enabled = false;
         }
         else
         {
-            activarDrop.drop = false;
+            //activarDrop.drop = false;
         }
     }
 

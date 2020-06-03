@@ -33,7 +33,7 @@ public class HealAbility : MonoBehaviour
         {
             yield return new WaitForSeconds(secondsToHeal);
             secondsToHeal -= increaseSpeedToHeal;
-            VidaPlayer.currentVida++;
+            health.SetHeal(1);
             eterManager.DecreaseCurrentEter(healCost);
         }
         hasCoroutineStarted = false;
