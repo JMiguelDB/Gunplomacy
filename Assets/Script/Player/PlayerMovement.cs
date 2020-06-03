@@ -10,16 +10,12 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator animator;
-    private SpriteRenderer spriteRenderer;
     private Vector3 m_velocity = Vector3.zero;
-    bool isFlipped = false;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-
     }
 
     //FixedUpdate is called at a fixed interval and is independent of frame rate. Put physics code here.
