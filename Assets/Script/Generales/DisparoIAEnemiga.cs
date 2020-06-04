@@ -8,7 +8,7 @@ using UnityEngine;
 public class DisparoIAEnemiga : MonoBehaviour
 {
     [Tooltip("Pun aqúi el scrip del arma que tenga equipada el enemigo")]
-    public Armas arma;
+    //public Armas arma;
 
     bool puedoDisparar = false;
 
@@ -16,7 +16,7 @@ public class DisparoIAEnemiga : MonoBehaviour
     {
         if(puedoDisparar)
         {
-            arma.Disparar();
+            //arma.Disparar();
         }
     }
     /// <summary>

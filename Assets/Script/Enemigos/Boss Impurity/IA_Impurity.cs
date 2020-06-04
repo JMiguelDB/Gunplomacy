@@ -22,7 +22,7 @@ public class IA_Impurity : MonoBehaviour
     int posicionAleatoriaMovimiento = 0;
     Transform pivotOrbeRota;
     Transform pivotAtaque;
-    VidaEnemigos vida;
+    //VidaEnemigos vida;
 
     Vector3 posicionRota1;
     Vector3 posicionRota2;
@@ -41,7 +41,7 @@ public class IA_Impurity : MonoBehaviour
         pivotAtaque = transform.GetChild(1).GetComponent<Transform>();
         player = GameObject.Find("Player").GetComponent<Transform>();
         mSpR = GetComponent<SpriteRenderer>();
-        vida = GetComponent<VidaEnemigos>();
+        //vida = GetComponent<VidaEnemigos>();
     }
     void Start()
     {       
@@ -85,6 +85,7 @@ public class IA_Impurity : MonoBehaviour
     /// </summary>
     void CreacionOrbes()
     {
+        /*
         if(vida.vidaEnemigoActual <= vida.vidaEnemigo/2 && !bola1)
         {
             NuevoOrbe(posicionRota1);
@@ -95,6 +96,7 @@ public class IA_Impurity : MonoBehaviour
             NuevoOrbe(posicionRota3);
             bola2 = true;
         }
+        */
     }
     /// <summary>
     /// Instancia un nuevo orbe

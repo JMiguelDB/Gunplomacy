@@ -11,7 +11,7 @@ public class IA_Peabomb : MonoBehaviour
     Rigidbody2D mRb;
     Animator mA;
     SpriteRenderer mSr;
-    VidaEnemigos scripVida;
+    //VidaEnemigos scripVida;
     Transform player;
     int posicionAleatoria = 0;
 
@@ -29,12 +29,13 @@ public class IA_Peabomb : MonoBehaviour
         mRb = GetComponent<Rigidbody2D>();
         mA = GetComponent<Animator>();
         player = GameObject.Find("Player").GetComponent<Transform>();
-        scripVida = GetComponent<VidaEnemigos>();
+        //scripVida = GetComponent<VidaEnemigos>();
         colliderAtaque = GetComponent<CircleCollider2D>();
         InvokeRepeating("Atacando", 2, coldawnAtaque);
     }
     private void Update()
     {
+        /*
         if(!scripVida.Muerto)
         {
             Moverse();
@@ -43,6 +44,7 @@ public class IA_Peabomb : MonoBehaviour
         {
             StartCoroutine("Muerte");
         }
+        */
     }
 
     void Moverse()
@@ -61,10 +63,12 @@ public class IA_Peabomb : MonoBehaviour
 
     void Atacando()
     {
+        /*
         if(!scripVida.Muerto)
         {
             StartCoroutine("Ataque");
         }
+        */
     }
     void Flip()
     {

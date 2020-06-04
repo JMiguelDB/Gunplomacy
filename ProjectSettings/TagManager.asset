@@ -4,27 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - EterBotaniclos
-  - EterMecanos
-  - EterMutanos
-  - EterIctioniclos
-  - EterBotaniclos
-  - Arma
-  - Cofre
-  - enemigo
-  - boss
   - BalaProta
-  - Bala
-  - LlaveStarWar
-  - LlaveKoala
-  - LlaveDragon
-  - LlaveAlas
-  - LlavesDemons
-  - BalaImpurity
-  - BossSlurm
-  - ArmaProtagonista
-  - Bomba
-  - GameManager
+  - Botaniclo
+  - Ictioniclo
+  - Mutano
+  - Mecano
+  - BulletEnemy
+  - Enemy
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -34,16 +21,16 @@ TagManager:
   - UI
   - 
   - 
-  - Bala
-  - BalaProta
+  - 
+  - 
   - Enemigo
   - Player
   - MiniMapa
   - Luces
   - PostProcess
-  - 
-  - 
-  - 
+  - WeaponOnGround
+  - Weapon
+  - Bullet
   - 
   - 
   - 
@@ -65,8 +52,14 @@ TagManager:
   - name: Suelo
     uniqueID: 3375087559
     locked: 0
+  - name: Tiles
+    uniqueID: 3710112935
+    locked: 0
   - name: "Decoraci\xF3n"
     uniqueID: 3752996423
+    locked: 0
+  - name: WeaponOnGround
+    uniqueID: 1472959609
     locked: 0
   - name: Player
     uniqueID: 665712297

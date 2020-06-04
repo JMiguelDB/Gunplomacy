@@ -1,51 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-/// <summary>
-/// Este escrip se modificará con el tiempo, ahora tendremos un drop aleatorio de 5 objetos los cuales
-/// 1 saldrá con un 50% de posiblidades -- 2,3,4 saldrán con 15% y -- 5 con un 5% 
-/// Si por ejemplo un eneigo solo dropea dos objetos jugaremos con los porcentajes haciendo que si un item dropea con 70% colocaremos este objeto en el lugar 1,2,5 sumando el porcentaje del 50%+15%+5%.
-/// Hecho por jose antonio 20/01 v.1
-/// </summary>
+
 public class Drop : MonoBehaviour
 {
-    [Tooltip("Aquí ponemos los objetos que dropeará el enemigo, cofre...  1 saldrá con un 50% de posiblidades -- 2,3,4 saldrán con 18% y -- 5 con un 1% ")]
-    public GameObject[] objetos;
-    [Tooltip("Booleano que activará otro scrip depende de si es enemigo,cofre. Este activa la salida del objeto")]
-    public bool drop;
-    int numeroAleatorio;
-    public int numeroDeObjetosQueDropea = 0;
+    [Tooltip("Prefab objects to drop.")]
+    public GameObject[] dropObject;
+    [Tooltip("Probability to respawn for each prefab object.")]
+    public float[] probability;
+    [Tooltip("Number of objects that will be dropped")]
+    public int maxDrops = 1;
 
-
-    void Update()
+    public void DropObjects()
     {
-        if(drop)
+        int drops = Random.Range(0, maxDrops + 1);
+        for (int drop = 0; drop < drops; drop++)
         {
-            for (int i = 0; i < numeroDeObjetosQueDropea; i++)
+            for(int i = 0; i < dropObject.Length; i++)
             {
-                numeroAleatorio = Random.Range(0, 100);
-                if (numeroAleatorio <= 50)
+                float prob = Random.Range(0f, 100f);
+                if(prob <= probability[i])
                 {
-                    Instantiate(objetos[1], transform.position, Quaternion.identity);
-                }
-                if (numeroAleatorio > 50 && numeroAleatorio < 65)
-                {
-                    Instantiate(objetos[2], transform.position, Quaternion.identity);
-                }
-                if (numeroAleatorio >= 65 && numeroAleatorio < 80)
-                {
-                    Instantiate(objetos[3], transform.position, Quaternion.identity);
-                }
-                if (numeroAleatorio >= 80 && numeroAleatorio < 99)
-                {
-                    Instantiate(objetos[4], transform.position, Quaternion.identity);
-                }
-                if (numeroAleatorio >= 99 && numeroAleatorio < 100)
-                {
-                    Instantiate(objetos[5], transform.position, Quaternion.identity);
+                    Instantiate(dropObject[i], transform.position, Quaternion.identity);
+                    print("solto un objeto");
+                    break;
                 }
             }
-            drop = false;
         }
     }
 }
