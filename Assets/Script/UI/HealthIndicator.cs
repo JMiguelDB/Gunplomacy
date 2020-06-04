@@ -2,22 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class HealthIndicator : MonoBehaviour
 {
     public static HealthIndicator Instance { get; private set; }
-    public List<Sprite> healthIndicators;
+    public TextMeshProUGUI healthText;
+    public Image healthBar;
 
-    private Image healthIndicatorUI;
+    private int maxHealth = 6;
     void Start()
     {
         Instance = this;
-        healthIndicatorUI = GetComponent<Image>();
-        healthIndicatorUI.sprite = healthIndicators[6];
+        healthBar.fillAmount = 1;
     }
 
     public void UpdateVidaUI(int health)
     {
-        healthIndicatorUI.sprite = healthIndicators[health > 0 ? health : 0];
+        healthText.text = health + "/" + maxHealth;
+        healthBar.fillAmount = (float)health / (float)maxHealth;
     }
 }
