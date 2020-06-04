@@ -52,7 +52,7 @@ public class AsaultManager : MonoBehaviour
             {
             //Nave Crucero Mutanos
             case 0:
-                LoadScene("Escena Principal");
+                LoadScene("Asalto");
                 break;
             case 1:
                 LoadScene("Mut.Patrulla");

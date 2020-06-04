@@ -22,6 +22,12 @@ public class Shot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        ShotNow();
+    }
+
+    //[i] Permite la llamada el disparo por un botón en la UI.
+    public void ShotNow()
+    {
         if (Input.GetMouseButtonDown(0) && canShot && eterManager.CanUseEter(eterCost))
         {
             Shoot();

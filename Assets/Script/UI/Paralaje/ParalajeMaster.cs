@@ -20,6 +20,7 @@ public class ParalajeMaster : MonoBehaviour
 
 
     //[i] -##- Variables que guardan datos sobre la cámara.   ---------------------------------##-
+    //[i] Obtiene la "Main Camera".
     Camera camara;
     Vector3 posicionRaton;
 
@@ -45,8 +46,13 @@ public class ParalajeMaster : MonoBehaviour
     List<Vector2> posicionesOriginales = new List<Vector2>(new Vector2[50]);
 
     #endregion
-    
-    
+
+
+
+    private void Start()
+    {
+        camara = Camera.main;
+    }
     void Update()
     {
         //[i] Llama al metodo para obtener la posición del raton en cada frame.
@@ -55,6 +61,7 @@ public class ParalajeMaster : MonoBehaviour
         //[i] Llama al metodo para aplicar la nueva posición del raton en cada frame.
         Paralaje();
     }
+
 
 
     #region Metodos y Funciones
@@ -100,9 +107,6 @@ public class ParalajeMaster : MonoBehaviour
     //[i] Este Metodo es el encargado de obtener la posición del raton en pantalla.
     void ObtenerPosicionRaton()
     {
-        //[i] Obtiene la "Main Camera".
-        camara = Camera.main;
-
         //[i] Obtiene la posicion del raron en la pantalla siendo el pivote el centro de la misma.
         posicionRaton = camara.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 8));
     }

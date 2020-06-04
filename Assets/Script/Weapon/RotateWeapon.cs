@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class RotateWeapon : MonoBehaviour
 {
+    [SerializeField]
+    GameObject player;
+    [SerializeField]
+    JoystickArea joystickArea;
+
+
     SpriteRenderer playerSprite;
     SpriteRenderer weaponSprite;
     Vector3 targetPosition;
@@ -21,7 +27,14 @@ public class RotateWeapon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        targetPosition = GetWorldPositionOnPlane(Input.mousePosition, 0f);
+        if (player.GetComponent<PlayerMovement>().enAndroid == true)
+        {
+            targetPosition = joystickArea.areaInput;
+        }
+        else
+        {
+            targetPosition = GetWorldPositionOnPlane(Input.mousePosition, 0f);
+        }
 
         float rad = Mathf.Atan2(transform.position.y - targetPosition.y, transform.position.x - targetPosition.x);
 
