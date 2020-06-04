@@ -12,6 +12,7 @@ TagManager:
   - BulletEnemy
   - Enemy
   - Wall
+  - MinimapCamera
   layers:
   - Default
   - TransparentFX
@@ -31,7 +32,7 @@ TagManager:
   - WeaponOnGround
   - Weapon
   - Bullet
-  - 
+  - Tiles
   - 
   - 
   - 
