@@ -16,7 +16,7 @@ public class BotonMultyTactil : MonoBehaviour, IPointerUpHandler, IPointerDownHa
 
     public void OnPointerDown(PointerEventData Datos)
     {
-        shotScript.ShotNow();
+        //shotScript.ShotNow();
         Activar = true;
     }
    

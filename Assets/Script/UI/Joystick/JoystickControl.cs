@@ -13,13 +13,10 @@ public class JoystickControl : MonoBehaviour, IPointerDownHandler, IDragHandler,
     [SerializeField]
     bool invertirHorizontal = false;
 
-    //[i] Camara para obtener posición en pantalla de loa valores de el Joystick.
-    Camera camara;
-
     //[i] Sirve para almacenar los datos que se leerán al llamar al metodo "Input".
-    private Vector3 imputCalculo;
+    private static Vector3 imputCalculo;
 
-    public Vector3 Input
+    public static Vector3 Input
     {
         get
         {
@@ -27,16 +24,6 @@ public class JoystickControl : MonoBehaviour, IPointerDownHandler, IDragHandler,
         }
     }
     #endregion
-
-
-
-    void Start()
-    {
-        //[i] Aquí opbtenemos la camara actual.
-        camara = Camera.main;
-    }
-    
-
 
     #region Metodos y Funciones.
     public void OnDrag(PointerEventData data)
