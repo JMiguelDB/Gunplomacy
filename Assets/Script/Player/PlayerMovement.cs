@@ -8,11 +8,10 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 10;
     [Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;
 
-    //[!] Android ##########
-    public bool enAndroid = false;
+    #if (UNITY_ANDROID || UNITY_IOS)
     [SerializeField]
     JoystickControl joystickControl;
-    //[!] End of Android ##########
+    #endif
 
     float moveHorizontal;
     float moveVertical;
@@ -30,19 +29,14 @@ public class PlayerMovement : MonoBehaviour
     //FixedUpdate is called at a fixed interval and is independent of frame rate. Put physics code here.
     void FixedUpdate()
     {
-        if (enAndroid == true)
-        {
+#if (UNITY_ANDROID || UNITY_IOS)
+        moveHorizontal = JoystickControl.Input.x * speed;
+        moveVertical = JoystickControl.Input.z * speed;
+#else
+        moveHorizontal = Input.GetAxisRaw("Horizontal") * speed;
+        moveVertical = Input.GetAxisRaw("Vertical") * speed;
+#endif
 
-            moveHorizontal = joystickControl.Input.x * speed;
-            moveVertical = joystickControl.Input.z * speed;
-            print("moveHorizontal" + moveHorizontal);
-        }
-        else
-        {
-            print("2");
-            moveHorizontal = Input.GetAxisRaw("Horizontal") * speed;
-            moveVertical = Input.GetAxisRaw("Vertical") * speed;
-        }
         animator.SetBool("Andando", (moveHorizontal != 0) || (moveVertical != 0));
 
         Vector3 targetVelocity = new Vector2(moveHorizontal, moveVertical);
