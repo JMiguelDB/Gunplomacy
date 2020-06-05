@@ -22,7 +22,6 @@ public class Drop : MonoBehaviour
                 if(prob <= probability[i])
                 {
                     Instantiate(dropObject[i], transform.position, Quaternion.identity);
-                    print("solto un objeto");
                     break;
                 }
             }

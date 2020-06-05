@@ -18,8 +18,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Preload.unity
     guid: 77b10b5463451ea42bc59d903d3ad563
   - enabled: 1
-    path: Assets/Scenes/Escena Principal.unity
-    guid: 16a98db785e55e349a737f64cdb49500
+    path: Assets/Scenes/Asalto.unity
+    guid: 578105831909fcc4d84d4908cbdd9f45
   - enabled: 1
     path: Assets/Scenes/Naves/Mutanos/Mut.Crucero.unity
     guid: 83e25c4239bd0a24885329098ef59ce2

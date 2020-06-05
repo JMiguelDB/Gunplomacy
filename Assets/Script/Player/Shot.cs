@@ -10,6 +10,9 @@ public class Shot : MonoBehaviour
     public float shotForce = 20f;
     public GameObject bulletPrefab;
     public Transform bulletPosition;
+#if (UNITY_ANDROID || UNITY_IOS)
+    public float thresholdPressure = 2.5f;
+#endif
 
     EterManager eterManager;
     bool canShot;
@@ -22,7 +25,13 @@ public class Shot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && canShot && eterManager.CanUseEter(eterCost))
+        bool conditionToShot = false;
+#if (UNITY_ANDROID || UNITY_IOS)
+        conditionToShot = JoystickArma.Pressure() > thresholdPressure;
+#else
+        conditionToShot = Input.GetMouseButtonDown(0);
+#endif
+        if (conditionToShot && canShot && eterManager.CanUseEter(eterCost))
         {
             Shoot();
             StartCoroutine(Refresh(shotRate));
