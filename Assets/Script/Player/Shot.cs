@@ -16,6 +16,10 @@ public class Shot : MonoBehaviour
 
     EterManager eterManager;
     bool canShot;
+
+    public bool conditionToShot = false;
+
+
     void Start()
     {
         eterManager = GetComponentInParent<EterManager>();
@@ -25,9 +29,11 @@ public class Shot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool conditionToShot = false;
+        
 #if (UNITY_ANDROID || UNITY_IOS)
-        conditionToShot = JoystickArma.Pressure() > thresholdPressure;
+        //conditionToShot = JoystickArma.Pressure() > thresholdPressure;
+        //print(JoystickArma.Pressure());
+        //print(conditionToShot);
 #else
         conditionToShot = Input.GetMouseButtonDown(0);
 #endif
@@ -37,6 +43,12 @@ public class Shot : MonoBehaviour
             StartCoroutine(Refresh(shotRate));
         }
     }
+
+    public void ShootTrue(bool estado)
+    {
+        conditionToShot = estado;
+    }
+
 
     void Shoot() 
     {
@@ -48,6 +60,7 @@ public class Shot : MonoBehaviour
 
         eterManager.DecreaseCurrentEter(eterCost);
     }
+    
 
     IEnumerator Refresh(float time)
     {

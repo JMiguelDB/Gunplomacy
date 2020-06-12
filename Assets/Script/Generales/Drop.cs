@@ -21,7 +21,8 @@ public class Drop : MonoBehaviour
                 float prob = Random.Range(0f, 100f);
                 if(prob <= probability[i])
                 {
-                    Instantiate(dropObject[i], transform.position, Quaternion.identity);
+                    print("Summoned" + dropObject[i]);
+                    Instantiate(dropObject[i], new Vector3(transform.position.x, transform.position.y-(drop*0.5f), transform.position.z), Quaternion.identity);
                     break;
                 }
             }

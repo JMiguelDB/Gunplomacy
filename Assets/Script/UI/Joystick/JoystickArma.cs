@@ -9,8 +9,11 @@ public class JoystickArma : MonoBehaviour, IPointerDownHandler, IDragHandler, IP
     public Image baseJoystick;
     public Image contolJoystick;
 
+    public Shot shotScript;
+
     private static Vector3 imputCalculo;
     private static float pressure = 0;
+    
 
     public void OnDrag(PointerEventData data)
     {
@@ -35,6 +38,8 @@ public class JoystickArma : MonoBehaviour, IPointerDownHandler, IDragHandler, IP
     //[i] Al soltar el joystick asignamos al controlador la posicion inicial.
     public void OnPointerUp(PointerEventData puntero)
     {
+        print("DES PULSADO");
+        shotScript.ShootTrue(false);
         imputCalculo = Vector3.zero;
         contolJoystick.rectTransform.anchoredPosition = Vector3.zero;
         pressure = 0;
@@ -42,6 +47,8 @@ public class JoystickArma : MonoBehaviour, IPointerDownHandler, IDragHandler, IP
     //[i] Al pulsar el joystick iniciamos el metodo de arrastre ("OnDrag").
     public void OnPointerDown(PointerEventData puntero)
     {
+        print("PULSADO");
+        shotScript.ShootTrue(true);
         OnDrag(puntero);
     }
 

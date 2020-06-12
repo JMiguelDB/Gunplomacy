@@ -11,6 +11,8 @@ public class PickupNewWeapon : MonoBehaviour
     GameObject currentWeapon;
     Vector3 weaponPosition;
 
+    public bool pick=false;
+
     private void Start()
     {
         weaponInventory = GetComponent<WeaponInventory>();
@@ -19,6 +21,29 @@ public class PickupNewWeapon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+#if (UNITY_ANDROID || UNITY_IOS)
+        if (pick==true)
+        {
+            Collider2D[] weapons = Physics2D.OverlapCircleAll(transform.position, range, weaponLayer);
+            if (weapons.Length > 0)
+            {
+                currentWeapon = weaponInventory.GetSelectedWeapon();
+                weaponPosition = currentWeapon.transform.localPosition;
+                if (weaponInventory.HasSpaceForWeapon())
+                {
+                    AttachNewWeapon(weapons[0].gameObject);
+                }
+                else
+                {
+                    DetachCurrentWeapon();
+                    AttachNewWeapon(weapons[0].gameObject);
+                    weaponInventory.ChangeSelectedWeapon();
+                }
+            }
+            pick = false;
+        }
+#else
         if (Input.GetKeyDown(KeyCode.Q))
         {
             Collider2D[] weapons = Physics2D.OverlapCircleAll(transform.position, range, weaponLayer);
@@ -37,7 +62,9 @@ public class PickupNewWeapon : MonoBehaviour
                     weaponInventory.ChangeSelectedWeapon();
                 }
             }
+            pick = false;
         }
+#endif
     }
 
     void DetachCurrentWeapon()

@@ -9,8 +9,11 @@ public class JoystickControl : MonoBehaviour, IPointerDownHandler, IDragHandler,
     public Image baseJoystick;
     public Image contolJoystick;
     
+
+
+
     //[i] Alterna el joystick de un lado a otro.
-    [SerializeField]
+    //[SerializeField]
     bool invertirHorizontal = false;
 
     //[i] Sirve para almacenar los datos que se leerán al llamar al metodo "Input".
@@ -81,23 +84,4 @@ public class JoystickControl : MonoBehaviour, IPointerDownHandler, IDragHandler,
     #endregion
 
 
-    #region Experimental - No funciona.
-    //public void moverBase()
-    //{
-    //    RectTransform rectTransform = ImgBg.gameObject.GetComponent<RectTransform>();
-
-    //    if (PointerId >= 0 && PointerId < Input.touches.Length)
-    //    {
-    //        rectTransform.anchoredPosition = new Vector2(rectTransform.anchoredPosition.x
-    //                                                    + camara.ScreenToWorldPoint(new Vector2(Input.touches[PointerId].position.x, Input.touches[PointerId].position.y)).x
-    //                                                    , rectTransform.anchoredPosition.y + camara.ScreenToWorldPoint(new Vector2(Input.touches[PointerId].position.x, Input.touches[PointerId].position.y)).y);
-    //    }
-    //    else
-    //    {
-    //        rectTransform.anchoredPosition = new Vector2(rectTransform.anchoredPosition.x - (rectTransform.anchoredPosition.x 
-    //                                                     + camara.ScreenToWorldPoint(new Vector2(Input.mousePosition.x, Input.mousePosition.y)).x)
-    //                                                     , rectTransform.anchoredPosition.y - (rectTransform.anchoredPosition.y + camara.ScreenToWorldPoint(new Vector2(Input.mousePosition.x, Input.mousePosition.y)).y));
-    //    }
-    //}
-    #endregion
 }

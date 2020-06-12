@@ -37,6 +37,7 @@ public class ParalajeMaster : MonoBehaviour
 // |< nombre y tipo de list>|<Asignar nueva list (tamaño = Array 50)>|
 // |                        |                                        |
 // V                        V                                        V
+    [SerializeField]
     List<GameObject> layers = new List<GameObject>(new GameObject[50]);
 
     //[i] -[Despliega para mas Info]------------------------------------------------------------------------------------##-

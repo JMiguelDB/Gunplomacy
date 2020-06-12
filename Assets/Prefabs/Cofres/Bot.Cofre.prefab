@@ -50,6 +50,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -97,14 +98,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81abd22fb98b8a84badae37b7c981782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetos:
-  - {fileID: 1765818730997582549, guid: 4d854037935593e4fa6655a541fb4bd0, type: 3}
-  - {fileID: 1765818730997582549, guid: 4d854037935593e4fa6655a541fb4bd0, type: 3}
-  - {fileID: 7602368940168773084, guid: cb9fea280fa6ee94ebf91deed1f8dd92, type: 3}
-  - {fileID: 5252928730647035386, guid: 8b9eb31b90db85948b0f6e8fad204738, type: 3}
-  - {fileID: 8383532479867279915, guid: 6656d8b32f54dc441b4a37d4dfbccf02, type: 3}
-  drop: 0
-  numeroDeObjetosQueDropea: 4
+  dropObject:
+  - {fileID: 0}
+  probability: []
+  maxDrops: 1
 --- !u!114 &8637763298166503839
 MonoBehaviour:
   m_ObjectHideFlags: 0
