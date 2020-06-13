@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Drop : MonoBehaviour
 {
+    [SerializeField]
+    GameObject room;
+
     [Tooltip("Prefab objects to drop.")]
     public GameObject[] dropObject;
     [Tooltip("Probability to respawn for each prefab object.")]
@@ -22,7 +25,8 @@ public class Drop : MonoBehaviour
                 if(prob <= probability[i])
                 {
                     print("Summoned" + dropObject[i]);
-                    Instantiate(dropObject[i], new Vector3(transform.position.x, transform.position.y-(drop*0.5f), transform.position.z), Quaternion.identity);
+                    var summoned = Instantiate(dropObject[i], new Vector3(transform.position.x, transform.position.y-(drop*0.5f), transform.position.z), Quaternion.identity);
+                    summoned.transform.parent = room.transform;
                     break;
                 }
             }
