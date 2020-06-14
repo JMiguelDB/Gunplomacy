@@ -15,6 +15,9 @@ public class ActivarDropCofre : MonoBehaviour
 
     public Sprite cofreAbierto;
 
+    [SerializeField]
+    BotonMultyTactil botonMultyTactil;
+
     Drop activarDrop;
     [Tooltip("Este colider se desactivará para que el personaje no pueda abrir dos veces el cofre")]
     public Collider2D colliderDetector;
@@ -26,16 +29,24 @@ public class ActivarDropCofre : MonoBehaviour
     }
     void Update()
     {
-        if(contactoPlayer && Input.GetButtonDown("Interactuar"))
+#if (UNITY_ANDROID || UNITY_IOS)
+        if (contactoPlayer && botonMultyTactil.Activar == true)
         {
             mSr.sprite = cofreAbierto;
-            //activarDrop.drop = true;
+            activarDrop.DropObjects();
             colliderDetector.enabled = false;
+
         }
-        else
+#else
+        if (contactoPlayer && Input.GetButtonDown("Interactuar"))
         {
-            //activarDrop.drop = false;
+            mSr.sprite = cofreAbierto;
+            activarDrop.DropObjects();
+            colliderDetector.enabled = false;
+            
         }
+#endif
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

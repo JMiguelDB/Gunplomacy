@@ -10,12 +10,17 @@ public class Shot : MonoBehaviour
     public float shotForce = 20f;
     public GameObject bulletPrefab;
     public Transform bulletPosition;
+    public Animator bulletAnimator;
 #if (UNITY_ANDROID || UNITY_IOS)
     public float thresholdPressure = 2.5f;
 #endif
 
     EterManager eterManager;
     bool canShot;
+
+    public bool conditionToShot = false;
+
+
     void Start()
     {
         eterManager = GetComponentInParent<EterManager>();
@@ -25,9 +30,11 @@ public class Shot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool conditionToShot = false;
+        
 #if (UNITY_ANDROID || UNITY_IOS)
-        conditionToShot = JoystickArma.Pressure() > thresholdPressure;
+        //conditionToShot = JoystickArma.Pressure() > thresholdPressure;
+        //print(JoystickArma.Pressure());
+        //print(conditionToShot);
 #else
         conditionToShot = Input.GetMouseButtonDown(0);
 #endif
@@ -38,8 +45,15 @@ public class Shot : MonoBehaviour
         }
     }
 
+    public void ShootTrue(bool estado)
+    {
+        conditionToShot = estado;
+    }
+
+
     void Shoot() 
     {
+        bulletAnimator.SetTrigger("shot");
         GameObject bullet = Instantiate(bulletPrefab, bulletPosition.position, bulletPosition.rotation);
         bullet.tag = "BalaProta";
         bullet.GetComponent<Bullet>().SetDamage(damage);
@@ -48,6 +62,7 @@ public class Shot : MonoBehaviour
 
         eterManager.DecreaseCurrentEter(eterCost);
     }
+    
 
     IEnumerator Refresh(float time)
     {

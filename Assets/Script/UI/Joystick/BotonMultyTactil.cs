@@ -4,9 +4,10 @@ using UnityEngine.EventSystems;
 public class BotonMultyTactil : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
 {
     [SerializeField]
-    Shot shotScript;
-
-    bool Activar;
+    PickupNewWeapon pickupNewWeapon;
+    
+    [HideInInspector]
+    public bool Activar;
 
 
     public void OnPointerUp(PointerEventData Datos)
@@ -16,7 +17,7 @@ public class BotonMultyTactil : MonoBehaviour, IPointerUpHandler, IPointerDownHa
 
     public void OnPointerDown(PointerEventData Datos)
     {
-        //shotScript.ShotNow();
+        pickupNewWeapon.pick = true;
         Activar = true;
     }
    

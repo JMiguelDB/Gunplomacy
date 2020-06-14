@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 4285247042561726708}
   - component: {fileID: 1827562265255028875}
   - component: {fileID: 8135140591610973524}
-  - component: {fileID: 6271046024020392505}
-  m_Layer: 8
+  - component: {fileID: 5269579472888387474}
+  m_Layer: 17
   m_Name: BalaNula
   m_TagString: Bala
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 838207279442382896}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.041, y: 0.28295246, z: -6.950505}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -48,6 +48,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -70,7 +71,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 665712297
-  m_SortingLayer: 3
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: e53a90605db04a946a5655e2ab614408, type: 3}
   m_Color: {r: 0.06587124, g: 1, b: 0, a: 1}
@@ -93,7 +94,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -120,7 +121,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &6271046024020392505
+--- !u!114 &5269579472888387474
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,8 +130,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 838207279442382896}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc4d21a80cac87a4692a40330efdaff7, type: 3}
+  m_Script: {fileID: 11500000, guid: 76e122afefad2724985cfd52f6db8395, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 20
-  "da\xF1o": 1
+  lifetime: 3
