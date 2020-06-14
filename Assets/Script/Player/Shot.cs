@@ -10,6 +10,7 @@ public class Shot : MonoBehaviour
     public float shotForce = 20f;
     public GameObject bulletPrefab;
     public Transform bulletPosition;
+    public Animator bulletAnimator;
 #if (UNITY_ANDROID || UNITY_IOS)
     public float thresholdPressure = 2.5f;
 #endif
@@ -52,6 +53,7 @@ public class Shot : MonoBehaviour
 
     void Shoot() 
     {
+        bulletAnimator.SetTrigger("shot");
         GameObject bullet = Instantiate(bulletPrefab, bulletPosition.position, bulletPosition.rotation);
         bullet.tag = "BalaProta";
         bullet.GetComponent<Bullet>().SetDamage(damage);

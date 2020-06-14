@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6050e2d5de785ce4d931e4dbdbf2d755, type: 3}
   m_Name: ChromaticAberration
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -60,27 +60,27 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 5.27
+    value: 1
   threshold:
     overrideState: 1
-    value: 1.02
+    value: 0.84
   softKnee:
-    overrideState: 1
+    overrideState: 0
     value: 0.595
   clamp:
-    overrideState: 1
+    overrideState: 0
     value: 65318.68
   diffusion:
-    overrideState: 1
+    overrideState: 0
     value: 10
   anamorphicRatio:
-    overrideState: 1
+    overrideState: 0
     value: 0
   color:
-    overrideState: 1
+    overrideState: 0
     value: {r: 1, g: 0.96970034, b: 0.4481132, a: 1}
   fastMode:
-    overrideState: 1
+    overrideState: 0
     value: 1
   dirtTexture:
     overrideState: 0

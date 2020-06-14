@@ -1,19 +1,7 @@
 fileFormatVersion: 2
-guid: 73f1741b97b460845a5caaaef4f5cc4c
+guid: 6cf8c966b94b184458b142c3091bd3b6
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -3087819864445757613
-    second: player_idle_1_0
-  - first:
-      213: 227214536980925546
-    second: player_idle_1_1
-  - first:
-      213: 8640664900018686327
-    second: player_idle_1_2
-  - first:
-      213: 4259045068798977119
-    second: player_idle_1_3
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -48,11 +36,11 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,7 +57,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -96,7 +84,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -108,7 +96,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -121,91 +109,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: player_idle_1_0
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 9
-        width: 33
-        height: 40
-      alignment: 9
-      pivot: {x: 0.5, y: 0.125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ab72cd688464e04eb82b53e9b4e9316
-      internalID: -3087819864445757613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_1_1
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 9
-        width: 33
-        height: 38
-      alignment: 9
-      pivot: {x: 0.5, y: 0.125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c364e3a2da0f1748bdd59becbd2757c
-      internalID: 227214536980925546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_1_2
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 9
-        width: 33
-        height: 38
-      alignment: 9
-      pivot: {x: 0.5, y: 0.125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5e55d0618d5e4844963d390bf53fbf7
-      internalID: 8640664900018686327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_idle_1_3
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 9
-        width: 33
-        height: 38
-      alignment: 9
-      pivot: {x: 0.5, y: 0.125}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef256dd723ca63c49bd31bd14f25da7d
-      internalID: 4259045068798977119
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -216,7 +120,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures:
-    - texture: {fileID: 2800000, guid: c123b75336ca8b84e88ec69aa78b20c9, type: 3}
+    - texture: {fileID: 2800000, guid: 8cbd472c21ef9db4c89b13fa192be11c, type: 3}
       name: _Emission
   spritePackingTag: 
   pSDRemoveMatte: 0

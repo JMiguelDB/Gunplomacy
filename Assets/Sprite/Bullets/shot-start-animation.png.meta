@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: 73f1741b97b460845a5caaaef4f5cc4c
+guid: 0b70fcc09fc00ef40b20138c20779af3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3087819864445757613
-    second: player_idle_1_0
+      213: -4764331584961565976
+    second: shot-start-animation_0
   - first:
-      213: 227214536980925546
-    second: player_idle_1_1
+      213: 3218482213695934926
+    second: shot-start-animation_1
   - first:
-      213: 8640664900018686327
-    second: player_idle_1_2
+      213: -5041209431367361372
+    second: shot-start-animation_2
   - first:
-      213: 4259045068798977119
-    second: player_idle_1_3
+      213: 85690687556034232
+    second: shot-start-animation_3
+  - first:
+      213: 6880005966293814222
+    second: shot-start-animation_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -48,7 +51,7 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -69,7 +72,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -96,7 +99,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -108,7 +111,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Windows Store Apps
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -123,85 +126,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_idle_1_0
+      name: shot-start-animation_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 9
-        width: 33
-        height: 40
+        x: 0
+        y: 0
+        width: 128
+        height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.125}
+      pivot: {x: 0.23469602, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ab72cd688464e04eb82b53e9b4e9316
-      internalID: -3087819864445757613
+      spriteID: 8ea213e7aa1b1edb0800000000000000
+      internalID: -4764331584961565976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_1_1
+      name: shot-start-animation_1
       rect:
         serializedVersion: 2
-        x: 59
-        y: 9
-        width: 33
-        height: 38
+        x: 128
+        y: 0
+        width: 128
+        height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.125}
+      pivot: {x: 0.2310215, y: 0.50000006}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c364e3a2da0f1748bdd59becbd2757c
-      internalID: 227214536980925546
+      spriteID: ec1524765885aac20800000000000000
+      internalID: 3218482213695934926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_1_2
+      name: shot-start-animation_2
       rect:
         serializedVersion: 2
-        x: 109
-        y: 9
-        width: 33
-        height: 38
+        x: 256
+        y: 0
+        width: 128
+        height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.125}
+      pivot: {x: 0.2369008, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5e55d0618d5e4844963d390bf53fbf7
-      internalID: 8640664900018686327
+      spriteID: 4acdffc4bb60a0ab0800000000000000
+      internalID: -5041209431367361372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_1_3
+      name: shot-start-animation_3
       rect:
         serializedVersion: 2
-        x: 159
-        y: 9
-        width: 33
-        height: 38
+        x: 384
+        y: 0
+        width: 128
+        height: 64
       alignment: 9
-      pivot: {x: 0.5, y: 0.125}
+      pivot: {x: 0.2310215, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef256dd723ca63c49bd31bd14f25da7d
-      internalID: 4259045068798977119
+      spriteID: 8be1650f93f603100800000000000000
+      internalID: 85690687556034232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shot-start-animation_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 64
+      alignment: 9
+      pivot: {x: 0.23, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbc28979f0ba7f50800000000000000
+      internalID: 6880005966293814222
       vertices: []
       indices: 
       edges: []
@@ -216,7 +240,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures:
-    - texture: {fileID: 2800000, guid: c123b75336ca8b84e88ec69aa78b20c9, type: 3}
+    - texture: {fileID: 2800000, guid: 96b7c9bb6f160c84bbfb5b74d38fbe48, type: 3}
       name: _Emission
   spritePackingTag: 
   pSDRemoveMatte: 0
