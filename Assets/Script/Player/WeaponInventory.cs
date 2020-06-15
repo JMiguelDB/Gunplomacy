@@ -8,6 +8,8 @@ public class WeaponInventory : MonoBehaviour
     public List<GameObject> weapons;
 
     EterManager eterManager;
+    [SerializeField]
+    BotonMultyTactilCambio botonMultyTactilCambio;
 
     void Start()
     {
@@ -17,10 +19,19 @@ public class WeaponInventory : MonoBehaviour
 
     private void Update()
     {
+
+#if (UNITY_ANDROID || UNITY_IOS)
+        if (botonMultyTactilCambio.Activar == true)
+        {
+            ChangeSelectedWeapon();
+            botonMultyTactilCambio.Activar = false;
+        }
+#else
         if (Input.GetAxis("Mouse ScrollWheel") != 0f)
         {
             ChangeSelectedWeapon();
         }
+#endif
     }
 
     public GameObject GetSelectedWeapon()

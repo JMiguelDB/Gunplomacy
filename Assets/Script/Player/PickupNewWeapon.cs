@@ -69,6 +69,7 @@ public class PickupNewWeapon : MonoBehaviour
 
     void DetachCurrentWeapon()
     {
+        currentWeapon.GetComponent<Shot>().gunLight.gameObject.SetActive(false);
         currentWeapon.GetComponent<RotateWeapon>().enabled = false;
         currentWeapon.GetComponent<Shot>().enabled = false;
         currentWeapon.GetComponentInChildren<SpriteRenderer>().sortingLayerName = "WeaponOnGround";
@@ -80,6 +81,7 @@ public class PickupNewWeapon : MonoBehaviour
     void AttachNewWeapon(GameObject weapon)
     {
         currentWeapon = weapon;
+        currentWeapon.GetComponent<Shot>().gunLight.gameObject.SetActive(true);
         currentWeapon.GetComponent<RotateWeapon>().enabled = true;
         currentWeapon.GetComponent<Shot>().enabled = true;
         currentWeapon.GetComponentInChildren<SpriteRenderer>().sortingLayerName = "Player";

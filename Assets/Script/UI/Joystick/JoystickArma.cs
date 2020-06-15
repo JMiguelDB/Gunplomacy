@@ -9,7 +9,10 @@ public class JoystickArma : MonoBehaviour, IPointerDownHandler, IDragHandler, IP
     public Image baseJoystick;
     public Image contolJoystick;
 
-    public Shot shotScript;
+    Shot shotScript;
+
+    [SerializeField]
+    WeaponInventory WeaponInventory;
 
     private static Vector3 imputCalculo;
     private static float pressure = 0;
@@ -38,7 +41,7 @@ public class JoystickArma : MonoBehaviour, IPointerDownHandler, IDragHandler, IP
     //[i] Al soltar el joystick asignamos al controlador la posicion inicial.
     public void OnPointerUp(PointerEventData puntero)
     {
-        print("DES PULSADO");
+        //print("DES PULSADO");
         shotScript.ShootTrue(false);
         imputCalculo = Vector3.zero;
         contolJoystick.rectTransform.anchoredPosition = Vector3.zero;
@@ -47,7 +50,8 @@ public class JoystickArma : MonoBehaviour, IPointerDownHandler, IDragHandler, IP
     //[i] Al pulsar el joystick iniciamos el metodo de arrastre ("OnDrag").
     public void OnPointerDown(PointerEventData puntero)
     {
-        print("PULSADO");
+        //print("PULSADO");
+        shotScript = WeaponInventory.GetSelectedWeapon().GetComponent<Shot>();
         shotScript.ShootTrue(true);
         OnDrag(puntero);
     }
