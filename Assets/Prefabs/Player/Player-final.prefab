@@ -247,6 +247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   m_MovementSmoothing: 0.05
+  joystickControl: {fileID: 0}
 --- !u!114 &562156692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -454,7 +455,7 @@ PrefabInstance:
     - target: {fileID: 6028156198321898710, guid: f6b7b29b5b152da4cb1104ab1d28d34e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 11.64
       objectReference: {fileID: 0}
     - target: {fileID: 6028156198321898710, guid: f6b7b29b5b152da4cb1104ab1d28d34e,
         type: 3}
@@ -464,7 +465,7 @@ PrefabInstance:
     - target: {fileID: 6028156198321898710, guid: f6b7b29b5b152da4cb1104ab1d28d34e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.54358655
       objectReference: {fileID: 0}
     - target: {fileID: 6028156198321898710, guid: f6b7b29b5b152da4cb1104ab1d28d34e,
         type: 3}
