@@ -54,7 +54,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -99,13 +99,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropObject:
-  - {fileID: 5932049467146432431, guid: 42894b58c134d7d46876db53f05792ad, type: 3}
-  - {fileID: 5932049467146432431, guid: 42894b58c134d7d46876db53f05792ad, type: 3}
-  - {fileID: 5932049467146432431, guid: 42894b58c134d7d46876db53f05792ad, type: 3}
+  - {fileID: 7555551442182777731, guid: dce2db098defbf24f853518f212a7d0d, type: 3}
+  - {fileID: 496496224034072680, guid: 0179d0c2af7bbc94b9fc49a28db43cd9, type: 3}
+  - {fileID: 5878594123836601140, guid: 5368598a04cfe364b89ef71029b764ea, type: 3}
   probability:
-  - 20
-  - 50
-  - 90
+  - 5
+  - 40
+  - 95
   maxDrops: 8
 --- !u!114 &4421514133256343496
 MonoBehaviour:
