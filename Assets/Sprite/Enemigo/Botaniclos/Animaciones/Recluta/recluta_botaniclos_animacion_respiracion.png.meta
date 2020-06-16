@@ -8,8 +8,14 @@ TextureImporter:
   - first:
       213: -8620065594649417164
     second: recluta_botaniclos_animacion_respiracion_1
+  - first:
+      213: 6927005490593307797
+    second: recluta_botaniclos_animacion_respiracion_0
+  - first:
+      213: 5207733631641790210
+    second: recluta_botaniclos_animacion_respiracion_1
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +69,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -107,19 +114,19 @@ TextureImporter:
       name: recluta_botaniclos_animacion_respiracion_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 17
+        y: 9
+        width: 34
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5a72d4ebc1282049835149271149890
-      internalID: 1657235588111055631
+      spriteID: 59c9ef7facaa12060800000000000000
+      internalID: 6927005490593307797
       vertices: []
       indices: 
       edges: []
@@ -128,19 +135,19 @@ TextureImporter:
       name: recluta_botaniclos_animacion_respiracion_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 81
+        y: 9
+        width: 34
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccf8c7cba18fdc742b0d7a8c7b5fa773
-      internalID: -8620065594649417164
+      spriteID: 2072dde6526954840800000000000000
+      internalID: 5207733631641790210
       vertices: []
       indices: 
       edges: []

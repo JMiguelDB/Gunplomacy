@@ -14,8 +14,20 @@ TextureImporter:
   - first:
       213: -3442747868715530909
     second: Recluta idle_3
+  - first:
+      213: -3311117150045877347
+    second: Recluta idle_0
+  - first:
+      213: 2070250181007700309
+    second: Recluta idle_1
+  - first:
+      213: -4354551543613753859
+    second: Recluta idle_2
+  - first:
+      213: -3335883299881789239
+    second: Recluta idle_3
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -43,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -57,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 40
+  spritePixelsToUnits: 60
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,6 +81,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -106,6 +119,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -113,19 +138,19 @@ TextureImporter:
       name: Recluta idle_0
       rect:
         serializedVersion: 2
-        x: 72
-        y: 49
-        width: 34
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 71
+        y: 39
+        width: 35
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bce2d9c9c70d13341a7af6a2b876cbcb
-      internalID: -6008369984721647176
+      spriteID: d9bcfcdbe7c8c02d0800000000000000
+      internalID: -3311117150045877347
       vertices: []
       indices: 
       edges: []
@@ -138,15 +163,15 @@ TextureImporter:
         y: 84
         width: 4
         height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4435e3c721b449498fea5e7c8ff776b
-      internalID: 3420842445258028220
+      spriteID: 551f62b22910bbc10800000000000000
+      internalID: 2070250181007700309
       vertices: []
       indices: 
       edges: []
@@ -156,18 +181,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 472
-        y: 49
+        y: 39
         width: 34
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a6db5f093f1a5f42a7ab0374a5fd071
-      internalID: 8673914194061043438
+      spriteID: df5f5c641768193c0800000000000000
+      internalID: -4354551543613753859
       vertices: []
       indices: 
       edges: []
@@ -180,15 +205,15 @@ TextureImporter:
         y: 84
         width: 4
         height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 268ed698c95444c40923c8e1e2ca75ca
-      internalID: -3442747868715530909
+      spriteID: 9c8536220df84b1d0800000000000000
+      internalID: -3335883299881789239
       vertices: []
       indices: 
       edges: []

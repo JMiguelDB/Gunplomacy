@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3673019930113517086}
   - component: {fileID: 8600186146840946695}
   - component: {fileID: 5046002286722487038}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: eter botaniclos
   m_TagString: Botaniclo
   m_Icon: {fileID: 0}
@@ -51,7 +51,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d1df568b100b7ab47ac99b7f8d3b2107, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -72,8 +72,8 @@ SpriteRenderer:
   m_SortingLayerID: -541970873
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 300a531de26317e4da1b21730c47358d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: dce833f2f1954964c97b19fcfb11a96d, type: 3}
+  m_Color: {r: 0, g: 0.990566, b: 0.107923955, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -121,4 +121,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 582cb33fb8668724989516383e91a4bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eterValue: 10
+  eterValue: 6

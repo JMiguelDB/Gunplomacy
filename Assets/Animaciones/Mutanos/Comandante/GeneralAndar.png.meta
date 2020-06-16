@@ -80,8 +80,128 @@ TextureImporter:
   - first:
       213: -4398636484808477890
     second: GeneralAndar_32
+  - first:
+      213: -3894865704351941063
+    second: GeneralAndar_0
+  - first:
+      213: -1679851531540938517
+    second: GeneralAndar_1
+  - first:
+      213: -3398919063204811805
+    second: GeneralAndar_2
+  - first:
+      213: -6344019822975329495
+    second: GeneralAndar_3
+  - first:
+      213: -2817466239338499822
+    second: GeneralAndar_4
+  - first:
+      213: 4536669648620678498
+    second: GeneralAndar_5
+  - first:
+      213: 3477565590050597920
+    second: GeneralAndar_6
+  - first:
+      213: -2358958696725636896
+    second: GeneralAndar_7
+  - first:
+      213: -784917077250044841
+    second: GeneralAndar_8
+  - first:
+      213: -3902827035827634757
+    second: GeneralAndar_9
+  - first:
+      213: 7774233576880446181
+    second: GeneralAndar_10
+  - first:
+      213: 3523596578947918520
+    second: GeneralAndar_11
+  - first:
+      213: -3166718461050620077
+    second: GeneralAndar_12
+  - first:
+      213: 85841202961466867
+    second: GeneralAndar_13
+  - first:
+      213: 6974316616508714597
+    second: GeneralAndar_14
+  - first:
+      213: -6735714426422958981
+    second: GeneralAndar_15
+  - first:
+      213: 2246178310377751522
+    second: GeneralAndar_16
+  - first:
+      213: -7793276725186718528
+    second: GeneralAndar_17
+  - first:
+      213: -4768777744927350919
+    second: GeneralAndar_18
+  - first:
+      213: -5658760077346510173
+    second: GeneralAndar_19
+  - first:
+      213: -7742556082480934213
+    second: GeneralAndar_20
+  - first:
+      213: -4021961840173405994
+    second: GeneralAndar_21
+  - first:
+      213: -2092053243015356424
+    second: GeneralAndar_22
+  - first:
+      213: 2756840639597083524
+    second: GeneralAndar_23
+  - first:
+      213: -1674643812493791087
+    second: GeneralAndar_24
+  - first:
+      213: 1442158115815839256
+    second: GeneralAndar_25
+  - first:
+      213: 4854762567151821884
+    second: GeneralAndar_26
+  - first:
+      213: -2997795638314796018
+    second: GeneralAndar_27
+  - first:
+      213: 4161014679751460639
+    second: GeneralAndar_28
+  - first:
+      213: 6652016724977290060
+    second: GeneralAndar_29
+  - first:
+      213: 5431964902785509347
+    second: GeneralAndar_30
+  - first:
+      213: -5892050438776376992
+    second: GeneralAndar_31
+  - first:
+      213: 3583701111406079323
+    second: GeneralAndar_32
+  - first:
+      213: 1497653407213246416
+    second: GeneralAndar_23
+  - first:
+      213: -2261587528528820908
+    second: GeneralAndar_24
+  - first:
+      213: -856436310121900734
+    second: GeneralAndar_25
+  - first:
+      213: -6307442651314356183
+    second: GeneralAndar_26
+  - first:
+      213: -2491398805825269557
+    second: GeneralAndar_27
+  - first:
+      213: 939738453255553702
+    second: GeneralAndar_28
+  - first:
+      213: 3801128174844666444
+    second: GeneralAndar_29
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -109,7 +229,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -123,7 +243,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 40
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -135,6 +255,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -172,6 +293,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -183,15 +316,15 @@ TextureImporter:
         y: 0
         width: 48
         height: 60
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61d9c58430fa4354e9349d288dc90bf4
-      internalID: 4667080836141656680
+      spriteID: 93e304c1748a2f9c0800000000000000
+      internalID: -3894865704351941063
       vertices: []
       indices: 
       edges: []
@@ -204,15 +337,15 @@ TextureImporter:
         y: 0
         width: 48
         height: 60
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bf7f372609972a438840bd72282b424
-      internalID: -9125733949345192004
+      spriteID: be04b1baee7ffa8e0800000000000000
+      internalID: -1679851531540938517
       vertices: []
       indices: 
       edges: []
@@ -225,15 +358,15 @@ TextureImporter:
         y: 0
         width: 48
         height: 60
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb83a63688ddbb64faa9900831f9a0f0
-      internalID: -5439457682111764483
+      spriteID: 3ebaf59ce1d94d0d0800000000000000
+      internalID: -3398919063204811805
       vertices: []
       indices: 
       edges: []
@@ -242,19 +375,19 @@ TextureImporter:
       name: GeneralAndar_3
       rect:
         serializedVersion: 2
-        x: 201
-        y: 0
-        width: 48
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 212
+        y: 6
+        width: 34
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5a5e39ac12dd6e42bcb1ad5f5b29c88
-      internalID: 8569746227123552215
+      spriteID: 92bd483459385f7a0800000000000000
+      internalID: -6344019822975329495
       vertices: []
       indices: 
       edges: []
@@ -263,19 +396,19 @@ TextureImporter:
       name: GeneralAndar_4
       rect:
         serializedVersion: 2
-        x: 265
-        y: 0
-        width: 48
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 276
+        y: 6
+        width: 34
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8c4cdad08146b94f91e4a0e8a9bfc6c
-      internalID: 8085096398521347032
+      spriteID: 211b295026956e8d0800000000000000
+      internalID: -2817466239338499822
       vertices: []
       indices: 
       edges: []
@@ -284,19 +417,19 @@ TextureImporter:
       name: GeneralAndar_5
       rect:
         serializedVersion: 2
-        x: 329
-        y: 0
-        width: 48
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 340
+        y: 6
+        width: 34
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61ad772f092363b4b9e9962082ae9f22
-      internalID: -5426881367233038853
+      spriteID: 26de455520d75fe30800000000000000
+      internalID: 4536669648620678498
       vertices: []
       indices: 
       edges: []
@@ -305,19 +438,19 @@ TextureImporter:
       name: GeneralAndar_6
       rect:
         serializedVersion: 2
-        x: 393
-        y: 0
-        width: 48
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 404
+        y: 6
+        width: 34
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afafe68ba0b931a42af7f7649241e280
-      internalID: 915320000956540069
+      spriteID: 02c661eaa7bc24030800000000000000
+      internalID: 3477565590050597920
       vertices: []
       indices: 
       edges: []
@@ -326,19 +459,19 @@ TextureImporter:
       name: GeneralAndar_7
       rect:
         serializedVersion: 2
-        x: 457
-        y: 0
-        width: 48
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 468
+        y: 6
+        width: 34
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a61ec3d87f632c0449d1af47783614d3
-      internalID: -1137368130269295476
+      spriteID: 0e899d9409b434fd0800000000000000
+      internalID: -2358958696725636896
       vertices: []
       indices: 
       edges: []
@@ -347,19 +480,19 @@ TextureImporter:
       name: GeneralAndar_8
       rect:
         serializedVersion: 2
-        x: 521
-        y: 0
-        width: 48
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 532
+        y: 6
+        width: 34
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f831cc8f7592484f94444cdf18f7527
-      internalID: 526548752764238153
+      spriteID: 75c8f50b31a6b15f0800000000000000
+      internalID: -784917077250044841
       vertices: []
       indices: 
       edges: []
@@ -372,15 +505,15 @@ TextureImporter:
         y: 0
         width: 48
         height: 60
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dc566bd13d13894fa80b11a63f0f13d
-      internalID: -8238852499144480930
+      spriteID: bbdf3bd2d7f56d9c0800000000000000
+      internalID: -3902827035827634757
       vertices: []
       indices: 
       edges: []
@@ -393,15 +526,15 @@ TextureImporter:
         y: 0
         width: 48
         height: 60
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d7fb007e1610614ba8240efe750efc5
-      internalID: -4848568437061909332
+      spriteID: 5ea9fde9f30a3eb60800000000000000
+      internalID: 7774233576880446181
       vertices: []
       indices: 
       edges: []
@@ -414,15 +547,15 @@ TextureImporter:
         y: 0
         width: 48
         height: 60
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c664dd4194d8c2f41ba0fd70e86a2340
-      internalID: 7199117719028173524
+      spriteID: 8bae8f37b6456e030800000000000000
+      internalID: 3523596578947918520
       vertices: []
       indices: 
       edges: []
@@ -435,15 +568,15 @@ TextureImporter:
         y: 0
         width: 48
         height: 60
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64726bc8ac35e3144b4b44e0b408d5e4
-      internalID: -4488102477662236186
+      spriteID: 357f761765e8d04d0800000000000000
+      internalID: -3166718461050620077
       vertices: []
       indices: 
       edges: []
@@ -452,19 +585,19 @@ TextureImporter:
       name: GeneralAndar_13
       rect:
         serializedVersion: 2
-        x: 841
-        y: 0
-        width: 48
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 846
+        y: 6
+        width: 40
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: baa936de96789934cb76e3e93a1f462b
-      internalID: -6633393290120915434
+      spriteID: 3f54c998e18f03100800000000000000
+      internalID: 85841202961466867
       vertices: []
       indices: 
       edges: []
@@ -473,19 +606,19 @@ TextureImporter:
       name: GeneralAndar_14
       rect:
         serializedVersion: 2
-        x: 905
-        y: 0
-        width: 48
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 910
+        y: 6
+        width: 40
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e37fc2415758f8e45aa9266bbd0d89f0
-      internalID: -6715579020398110293
+      spriteID: 56e2b1ed200c9c060800000000000000
+      internalID: 6974316616508714597
       vertices: []
       indices: 
       edges: []
@@ -494,19 +627,19 @@ TextureImporter:
       name: GeneralAndar_15
       rect:
         serializedVersion: 2
-        x: 969
-        y: 0
-        width: 48
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 974
+        y: 6
+        width: 40
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 096b482a035c8b643ac85ff62cd285e3
-      internalID: 142853298698344113
+      spriteID: b74e590aa6fe582a0800000000000000
+      internalID: -6735714426422958981
       vertices: []
       indices: 
       edges: []
@@ -515,19 +648,19 @@ TextureImporter:
       name: GeneralAndar_16
       rect:
         serializedVersion: 2
-        x: 1033
-        y: 0
-        width: 48
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1038
+        y: 6
+        width: 40
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d15867830fdcf004894b3e087f5cff25
-      internalID: 5739153632773304470
+      spriteID: 2e3c044c5470c2f10800000000000000
+      internalID: 2246178310377751522
       vertices: []
       indices: 
       edges: []
@@ -540,15 +673,15 @@ TextureImporter:
         y: 0
         width: 48
         height: 60
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dcb306fa15a7bb4d8cd2698322b75f8
-      internalID: -7970652682122338743
+      spriteID: 0c41de6eb18b8d390800000000000000
+      internalID: -7793276725186718528
       vertices: []
       indices: 
       edges: []
@@ -561,15 +694,15 @@ TextureImporter:
         y: 0
         width: 48
         height: 60
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d45d64abca34324fb18a03f781a9b10
-      internalID: -7596868982702185529
+      spriteID: 97f11d438e5e1ddb0800000000000000
+      internalID: -4768777744927350919
       vertices: []
       indices: 
       edges: []
@@ -582,15 +715,15 @@ TextureImporter:
         y: 0
         width: 48
         height: 60
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d984e3de372d594383b2d71affcbed5
-      internalID: 1933424863981223642
+      spriteID: 3aa6998e0bb0871b0800000000000000
+      internalID: -5658760077346510173
       vertices: []
       indices: 
       edges: []
@@ -603,15 +736,15 @@ TextureImporter:
         y: 0
         width: 48
         height: 60
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c932e6fbc1817164aaf084abcf69919c
-      internalID: -4360416771251346260
+      spriteID: bb21f2ac34aec8490800000000000000
+      internalID: -7742556082480934213
       vertices: []
       indices: 
       edges: []
@@ -624,15 +757,15 @@ TextureImporter:
         y: 0
         width: 48
         height: 60
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b33558bc299e4364d823cd5db84f2957
-      internalID: 8175616882953648066
+      spriteID: 6d8a940040f1f28c0800000000000000
+      internalID: -4021961840173405994
       vertices: []
       indices: 
       edges: []
@@ -645,15 +778,15 @@ TextureImporter:
         y: 0
         width: 48
         height: 60
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce2a55df6d786b14286548bda7edefc3
-      internalID: 8902330586591538363
+      spriteID: 8ff9dded8a887f2e0800000000000000
+      internalID: -2092053243015356424
       vertices: []
       indices: 
       edges: []
@@ -666,15 +799,15 @@ TextureImporter:
         y: 0
         width: 48
         height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab0a8aeb24c296e4ebdd3269db7d912d
-      internalID: -7607250989522838451
+      spriteID: 3e76bee9c47326b40800000000000000
+      internalID: 5431964902785509347
       vertices: []
       indices: 
       edges: []
@@ -687,15 +820,15 @@ TextureImporter:
         y: 0
         width: 48
         height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f540347e6e5e3e94cb220eb8808f8acc
-      internalID: -229887663244165772
+      spriteID: 061bc06e75b3b3ea0800000000000000
+      internalID: -5892050438776376992
       vertices: []
       indices: 
       edges: []
@@ -708,15 +841,162 @@ TextureImporter:
         y: 0
         width: 48
         height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 425ff2a3855d736448c6a67328702926
-      internalID: -4398636484808477890
+      spriteID: b5d288e6c2ddbb130800000000000000
+      internalID: 3583701111406079323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeneralAndar_23
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 48
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d75995c6dbb8c410800000000000000
+      internalID: 1497653407213246416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeneralAndar_24
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 0
+        width: 48
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455069d002a3d90e0800000000000000
+      internalID: -2261587528528820908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeneralAndar_25
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 48
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245107aa6b35d14f0800000000000000
+      internalID: -856436310121900734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeneralAndar_26
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 0
+        width: 48
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920824fa3567778a0800000000000000
+      internalID: -6307442651314356183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeneralAndar_27
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 0
+        width: 48
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0d3f07cf5cc6dd0800000000000000
+      internalID: -2491398805825269557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeneralAndar_28
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 0
+        width: 48
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a28210f42f9a0d00800000000000000
+      internalID: 939738453255553702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GeneralAndar_29
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 0
+        width: 48
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42685f8fe150c430800000000000000
+      internalID: 3801128174844666444
       vertices: []
       indices: 
       edges: []
