@@ -1556,9 +1556,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eterBotaniclo: {fileID: 1590153113440408845}
+  highlightEterBotaniclo: {fileID: 3384983438448895678}
   eterIctioniclo: {fileID: 7901043575267477995}
+  highlightEterIctioniclo: {fileID: 2173460645295106163}
   eterMutano: {fileID: 2692570525980387208}
+  highlightEterMutano: {fileID: 2337452287197251787}
   eterMecano: {fileID: 1098154619285420910}
+  highlightEterMecano: {fileID: 274192331460268009}
 --- !u!1 &5724974865730749662
 GameObject:
   m_ObjectHideFlags: 0
@@ -3348,7 +3352,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 1
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
