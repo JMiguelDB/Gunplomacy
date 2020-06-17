@@ -435,6 +435,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1916100423}
+    - target: {fileID: 715107989363511391, guid: f6d1ad879841c954da2ca8b1b5a2311f,
+        type: 3}
+      propertyPath: botonMultyTactilCambio
+      value: 
+      objectReference: {fileID: 889355886}
     - target: {fileID: 4015196838987846313, guid: f6d1ad879841c954da2ca8b1b5a2311f,
         type: 3}
       propertyPath: m_Name
@@ -11395,6 +11400,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShadowGroup: 0
+--- !u!114 &889355886 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8194032023105717975, guid: 0a61d322412a68d449f6a3850166e631,
+    type: 3}
+  m_PrefabInstance: {fileID: 1807910269}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b66660c57779c5945a2e3536b5bed335, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &924158328
 PrefabInstance:
   m_ObjectHideFlags: 0
