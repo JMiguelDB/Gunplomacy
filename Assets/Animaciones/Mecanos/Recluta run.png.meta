@@ -32,8 +32,38 @@ TextureImporter:
   - first:
       213: 6067235715136599378
     second: Recluta run_9
+  - first:
+      213: 4272847775117214767
+    second: Recluta run_0
+  - first:
+      213: -4145187334364279970
+    second: Recluta run_1
+  - first:
+      213: 2739445488855866664
+    second: Recluta run_2
+  - first:
+      213: 5591886331262190953
+    second: Recluta run_3
+  - first:
+      213: 6234394597279642029
+    second: Recluta run_4
+  - first:
+      213: 623344654027595416
+    second: Recluta run_5
+  - first:
+      213: -540839047667939353
+    second: Recluta run_6
+  - first:
+      213: 1927118817078242206
+    second: Recluta run_7
+  - first:
+      213: 241028915277969980
+    second: Recluta run_8
+  - first:
+      213: 4203890410865286132
+    second: Recluta run_9
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -61,7 +91,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -75,7 +105,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 40
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -87,6 +117,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -124,6 +155,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -132,18 +175,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 72
-        y: 49
+        y: 39
         width: 34
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2257239de19bf9548bee377936e7caae
-      internalID: 6531528500363980840
+      spriteID: f240e27b9643c4b30800000000000000
+      internalID: 4272847775117214767
       vertices: []
       indices: 
       edges: []
@@ -156,15 +199,15 @@ TextureImporter:
         y: 84
         width: 4
         height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5657142e797df5e43baea7cdffd39bd3
-      internalID: 5528334962469380213
+      spriteID: e5bc4cfd4165976c0800000000000000
+      internalID: -4145187334364279970
       vertices: []
       indices: 
       edges: []
@@ -174,18 +217,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 472
-        y: 49
+        y: 39
         width: 34
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74a4be32709c591418dc1de23a8c82f0
-      internalID: -8826979017620899646
+      spriteID: 82ddccc6827740620800000000000000
+      internalID: 2739445488855866664
       vertices: []
       indices: 
       edges: []
@@ -198,15 +241,15 @@ TextureImporter:
         y: 84
         width: 4
         height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85eaa10a4a498cf409f3b67dbdecaec4
-      internalID: 8262497024886821799
+      spriteID: 965ce3fbdfe5a9d40800000000000000
+      internalID: 5591886331262190953
       vertices: []
       indices: 
       edges: []
@@ -216,18 +259,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 872
-        y: 49
+        y: 39
         width: 34
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e5ed2ed194f5494f8c2247f73ddeefc
-      internalID: 6544967267554548877
+      spriteID: da1b770ead4058650800000000000000
+      internalID: 6234394597279642029
       vertices: []
       indices: 
       edges: []
@@ -240,15 +283,15 @@ TextureImporter:
         y: 84
         width: 4
         height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f3bab789133f324fa7b780166e3b4b5
-      internalID: -4668154464219841583
+      spriteID: 89e14f309a096a800800000000000000
+      internalID: 623344654027595416
       vertices: []
       indices: 
       edges: []
@@ -257,19 +300,19 @@ TextureImporter:
       name: Recluta run_6
       rect:
         serializedVersion: 2
-        x: 1273
-        y: 49
+        x: 1272
+        y: 39
         width: 34
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47a4f6087b57bba46a9b77f6cbc3e6b7
-      internalID: -8323043843958755564
+      spriteID: 7e7871b60cd8e78f0800000000000000
+      internalID: -540839047667939353
       vertices: []
       indices: 
       edges: []
@@ -282,15 +325,15 @@ TextureImporter:
         y: 84
         width: 4
         height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1aaa90ffa44cd734bae95ddab980b692
-      internalID: 8687208447135843373
+      spriteID: e9b6be39a508eba10800000000000000
+      internalID: 1927118817078242206
       vertices: []
       indices: 
       edges: []
@@ -300,18 +343,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1672
-        y: 49
+        y: 39
         width: 34
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 006bfab6064495b40bb9b2859266d6e6
-      internalID: -6900547787313160398
+      spriteID: c3abdbb758e485300800000000000000
+      internalID: 241028915277969980
       vertices: []
       indices: 
       edges: []
@@ -324,15 +367,15 @@ TextureImporter:
         y: 84
         width: 4
         height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d8e5a6d1cbf0104f99a190d0d801af6
-      internalID: 6067235715136599378
+      spriteID: 4fbdb463e08375a30800000000000000
+      internalID: 4203890410865286132
       vertices: []
       indices: 
       edges: []

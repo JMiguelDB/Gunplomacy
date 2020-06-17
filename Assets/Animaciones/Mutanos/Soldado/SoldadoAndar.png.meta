@@ -74,8 +74,134 @@ TextureImporter:
   - first:
       213: 1929083770625449473
     second: SoldadoAndar_23
+  - first:
+      213: 2606698864427906497
+    second: SoldadoAndar_24
+  - first:
+      213: 9185259687983472059
+    second: SoldadoAndar_0
+  - first:
+      213: 3422213860616777441
+    second: SoldadoAndar_1
+  - first:
+      213: 1707845610641204509
+    second: SoldadoAndar_2
+  - first:
+      213: 5638319620910747430
+    second: SoldadoAndar_3
+  - first:
+      213: -7473798018199315752
+    second: SoldadoAndar_4
+  - first:
+      213: 3892304849248917212
+    second: SoldadoAndar_5
+  - first:
+      213: 4033282741850495485
+    second: SoldadoAndar_6
+  - first:
+      213: -3336063760129622014
+    second: SoldadoAndar_7
+  - first:
+      213: 322421317260524382
+    second: SoldadoAndar_8
+  - first:
+      213: -267385593013185724
+    second: SoldadoAndar_9
+  - first:
+      213: 172288031400465737
+    second: SoldadoAndar_10
+  - first:
+      213: -974266808860829196
+    second: SoldadoAndar_11
+  - first:
+      213: -2603957932023987084
+    second: SoldadoAndar_12
+  - first:
+      213: -4677363043791219675
+    second: SoldadoAndar_13
+  - first:
+      213: 2747097310354255705
+    second: SoldadoAndar_14
+  - first:
+      213: -3502399232216986076
+    second: SoldadoAndar_15
+  - first:
+      213: -2474680506655888526
+    second: SoldadoAndar_16
+  - first:
+      213: -7324783615844381822
+    second: SoldadoAndar_17
+  - first:
+      213: 5063029542530136636
+    second: SoldadoAndar_18
+  - first:
+      213: -1995894665778416692
+    second: SoldadoAndar_19
+  - first:
+      213: 6014879724231744829
+    second: SoldadoAndar_20
+  - first:
+      213: -7354733656895605220
+    second: SoldadoAndar_21
+  - first:
+      213: 3275622775405740325
+    second: SoldadoAndar_22
+  - first:
+      213: 5412603268516683010
+    second: SoldadoAndar_23
+  - first:
+      213: 4833215847104549720
+    second: SoldadoAndar_25
+  - first:
+      213: 6512177890918685848
+    second: SoldadoAndar_26
+  - first:
+      213: 2062014903951710837
+    second: SoldadoAndar_27
+  - first:
+      213: -2659061253362261866
+    second: SoldadoAndar_28
+  - first:
+      213: -8009537026676187343
+    second: SoldadoAndar_29
+  - first:
+      213: -3735458107097101744
+    second: SoldadoAndar_30
+  - first:
+      213: -7367651973079297
+    second: SoldadoAndar_31
+  - first:
+      213: 2360498428454705930
+    second: SoldadoAndar_32
+  - first:
+      213: -4134947563021065301
+    second: SoldadoAndar_24
+  - first:
+      213: -3057778529468929829
+    second: SoldadoAndar_25
+  - first:
+      213: -1948270068945745817
+    second: SoldadoAndar_26
+  - first:
+      213: 3820200606177929741
+    second: SoldadoAndar_27
+  - first:
+      213: -1225253669893920281
+    second: SoldadoAndar_28
+  - first:
+      213: 4347779498625814107
+    second: SoldadoAndar_29
+  - first:
+      213: -1841628001726803129
+    second: SoldadoAndar_30
+  - first:
+      213: -247652274844657982
+    second: SoldadoAndar_31
+  - first:
+      213: -5276232531430919557
+    second: SoldadoAndar_32
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -129,6 +255,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,15 +304,15 @@ TextureImporter:
         y: 0
         width: 42
         height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a725afa7b3cc3a478e4bf6f01b0c583
-      internalID: 1343600469096505083
+      spriteID: bbd58f74509987f70800000000000000
+      internalID: 9185259687983472059
       vertices: []
       indices: 
       edges: []
@@ -198,15 +325,15 @@ TextureImporter:
         y: 0
         width: 42
         height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71f83376a71c2404fae22371f49ed62c
-      internalID: -8172309675083712556
+      spriteID: 1ee2b73ef552e7f20800000000000000
+      internalID: 3422213860616777441
       vertices: []
       indices: 
       edges: []
@@ -219,15 +346,15 @@ TextureImporter:
         y: 0
         width: 42
         height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9cb4c780970ab7439b9efbcc8249cf0
-      internalID: 365160139305271137
+      spriteID: d15aa79c88c73b710800000000000000
+      internalID: 1707845610641204509
       vertices: []
       indices: 
       edges: []
@@ -236,19 +363,19 @@ TextureImporter:
       name: SoldadoAndar_3
       rect:
         serializedVersion: 2
-        x: 204
-        y: 0
-        width: 42
-        height: 50
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 207
+        y: 6
+        width: 31
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8355936c79080d4c96e0deae3700403
-      internalID: 1340306897780302032
+      spriteID: 62f008672d55f3e40800000000000000
+      internalID: 5638319620910747430
       vertices: []
       indices: 
       edges: []
@@ -257,19 +384,19 @@ TextureImporter:
       name: SoldadoAndar_4
       rect:
         serializedVersion: 2
-        x: 268
-        y: 0
-        width: 42
-        height: 50
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 271
+        y: 6
+        width: 31
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13b42936812aa684a8db58684d17d4e5
-      internalID: 6970755478665259166
+      spriteID: 8da1632ec4cb74890800000000000000
+      internalID: -7473798018199315752
       vertices: []
       indices: 
       edges: []
@@ -278,19 +405,19 @@ TextureImporter:
       name: SoldadoAndar_5
       rect:
         serializedVersion: 2
-        x: 332
-        y: 0
-        width: 42
-        height: 50
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 335
+        y: 6
+        width: 31
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e833bb47cbd59ad4f93fe2cc209e1055
-      internalID: -713940722575098025
+      spriteID: cd6130953ae340630800000000000000
+      internalID: 3892304849248917212
       vertices: []
       indices: 
       edges: []
@@ -299,19 +426,19 @@ TextureImporter:
       name: SoldadoAndar_6
       rect:
         serializedVersion: 2
-        x: 396
-        y: 0
-        width: 42
-        height: 50
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 399
+        y: 6
+        width: 31
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bdd6b377833d8f4a821057c9e05cf81
-      internalID: -8011154131133451758
+      spriteID: df956b2d84919f730800000000000000
+      internalID: 4033282741850495485
       vertices: []
       indices: 
       edges: []
@@ -320,19 +447,19 @@ TextureImporter:
       name: SoldadoAndar_7
       rect:
         serializedVersion: 2
-        x: 460
-        y: 0
-        width: 42
-        height: 50
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 463
+        y: 6
+        width: 31
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b33703342e4a1c4cbf5f8fdb8fb8491
-      internalID: -5885910422011690505
+      spriteID: 2008b657fabe3b1d0800000000000000
+      internalID: -3336063760129622014
       vertices: []
       indices: 
       edges: []
@@ -341,19 +468,19 @@ TextureImporter:
       name: SoldadoAndar_8
       rect:
         serializedVersion: 2
-        x: 524
-        y: 0
-        width: 42
-        height: 50
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 527
+        y: 6
+        width: 31
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 234762e545c56ad4f93254ec3f1c5f49
-      internalID: -6972242190137425686
+      spriteID: e5bb353da78797400800000000000000
+      internalID: 322421317260524382
       vertices: []
       indices: 
       edges: []
@@ -366,15 +493,15 @@ TextureImporter:
         y: 0
         width: 42
         height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b632ad64fcd38543819a9948a6ccbb2
-      internalID: -7555698376916733667
+      spriteID: 4435466483e0a4cf0800000000000000
+      internalID: -267385593013185724
       vertices: []
       indices: 
       edges: []
@@ -387,15 +514,15 @@ TextureImporter:
         y: 0
         width: 42
         height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1734062fd9d244448a317bdfc99269ba
-      internalID: -5583042434500406831
+      spriteID: 9451dae3d07146200800000000000000
+      internalID: 172288031400465737
       vertices: []
       indices: 
       edges: []
@@ -408,15 +535,15 @@ TextureImporter:
         y: 0
         width: 42
         height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d921fc13384dbc43a33b88f7a1ad451
-      internalID: 2842534867786065202
+      spriteID: 4f9956dcf75ba72f0800000000000000
+      internalID: -974266808860829196
       vertices: []
       indices: 
       edges: []
@@ -429,15 +556,15 @@ TextureImporter:
         y: 0
         width: 42
         height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6da430418b3db7e4ea111b1923de89e8
-      internalID: -1058305094807139307
+      spriteID: 47446a3ae02ecdbd0800000000000000
+      internalID: -2603957932023987084
       vertices: []
       indices: 
       edges: []
@@ -446,19 +573,19 @@ TextureImporter:
       name: SoldadoAndar_13
       rect:
         serializedVersion: 2
-        x: 844
-        y: 0
-        width: 42
-        height: 50
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 847
+        y: 6
+        width: 32
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e48e1d9535e7ce4b98f6c6df2dc9793
-      internalID: -6095839304655582908
+      spriteID: 524d849e71ba61fb0800000000000000
+      internalID: -4677363043791219675
       vertices: []
       indices: 
       edges: []
@@ -467,19 +594,19 @@ TextureImporter:
       name: SoldadoAndar_14
       rect:
         serializedVersion: 2
-        x: 908
-        y: 0
-        width: 42
-        height: 50
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 911
+        y: 6
+        width: 32
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 629f546bd78d5114eb2aa9888183cbdf
-      internalID: -5103734235299929544
+      spriteID: 95fa813f276af1620800000000000000
+      internalID: 2747097310354255705
       vertices: []
       indices: 
       edges: []
@@ -488,19 +615,19 @@ TextureImporter:
       name: SoldadoAndar_15
       rect:
         serializedVersion: 2
-        x: 972
-        y: 0
-        width: 42
-        height: 50
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 975
+        y: 6
+        width: 32
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f3c5dd8687ecae4ab4ae058cceab30c
-      internalID: -1617009750172664686
+      spriteID: 42e0b1e647af46fc0800000000000000
+      internalID: -3502399232216986076
       vertices: []
       indices: 
       edges: []
@@ -509,19 +636,19 @@ TextureImporter:
       name: SoldadoAndar_16
       rect:
         serializedVersion: 2
-        x: 1036
-        y: 0
-        width: 42
-        height: 50
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1039
+        y: 6
+        width: 32
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28a2238b6a3f62343b65c8006a04e6af
-      internalID: 3288704274892849861
+      spriteID: 27b213cc03b28add0800000000000000
+      internalID: -2474680506655888526
       vertices: []
       indices: 
       edges: []
@@ -534,15 +661,15 @@ TextureImporter:
         y: 0
         width: 42
         height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f391ff17dd9059469be804b3b6cc8c0
-      internalID: 5496380784130636434
+      spriteID: 28b8ef81c14295a90800000000000000
+      internalID: -7324783615844381822
       vertices: []
       indices: 
       edges: []
@@ -555,15 +682,15 @@ TextureImporter:
         y: 0
         width: 42
         height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 848adba2d20539b4f9081b2205b3ba04
-      internalID: 58018638004277375
+      spriteID: c3a31d93b8e734640800000000000000
+      internalID: 5063029542530136636
       vertices: []
       indices: 
       edges: []
@@ -576,15 +703,15 @@ TextureImporter:
         y: 0
         width: 42
         height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de5d24da28237354eaef8e18e159fe13
-      internalID: -5528481975849012598
+      spriteID: cc33e2d40682d44e0800000000000000
+      internalID: -1995894665778416692
       vertices: []
       indices: 
       edges: []
@@ -597,15 +724,15 @@ TextureImporter:
         y: 0
         width: 42
         height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56d01a81a0a90704baa992ec7679628a
-      internalID: 2047787349235540777
+      spriteID: d3d5881bd35297350800000000000000
+      internalID: 6014879724231744829
       vertices: []
       indices: 
       edges: []
@@ -618,15 +745,15 @@ TextureImporter:
         y: 0
         width: 42
         height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d3137076e4c38a42b213c69fbf15a6e
-      internalID: 3874167395549924312
+      spriteID: c16b023c4bcbee990800000000000000
+      internalID: -7354733656895605220
       vertices: []
       indices: 
       edges: []
@@ -639,15 +766,15 @@ TextureImporter:
         y: 0
         width: 42
         height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c292a74a17c52b4897a919684381084
-      internalID: 2400712255608797752
+      spriteID: 5210d3a2f89557d20800000000000000
+      internalID: 3275622775405740325
       vertices: []
       indices: 
       edges: []
@@ -660,15 +787,204 @@ TextureImporter:
         y: 0
         width: 42
         height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84a41d8039e664047acc729e29530fe6
-      internalID: 1929083770625449473
+      spriteID: 20d1e0adefd6d1b40800000000000000
+      internalID: 5412603268516683010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoAndar_24
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 0
+        width: 42
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3234d6917bd96c0800000000000000
+      internalID: -4134947563021065301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoAndar_25
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 42
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd82035d0a69095d0800000000000000
+      internalID: -3057778529468929829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoAndar_26
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 42
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76886f5d1ba56f4e0800000000000000
+      internalID: -1948270068945745817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoAndar_27
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 42
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0aa7f50634140530800000000000000
+      internalID: 3820200606177929741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoAndar_28
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 0
+        width: 42
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9aa3667460ffee0800000000000000
+      internalID: -1225253669893920281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoAndar_29
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 0
+        width: 42
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e41512b6a665c30800000000000000
+      internalID: 4347779498625814107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoAndar_30
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 0
+        width: 42
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74359acf6193176e0800000000000000
+      internalID: -1841628001726803129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoAndar_31
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 0
+        width: 42
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c611127199209cf0800000000000000
+      internalID: -247652274844657982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoldadoAndar_32
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 0
+        width: 42
+        height: 5
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7233b3a77e07c6b0800000000000000
+      internalID: -5276232531430919557
       vertices: []
       indices: 
       edges: []

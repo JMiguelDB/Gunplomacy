@@ -20,8 +20,26 @@ TextureImporter:
   - first:
       213: -8077305370198515415
     second: recluta_botaniclos_animacion_andando_5
+  - first:
+      213: -5355400454481473081
+    second: recluta_botaniclos_animacion_andando_0
+  - first:
+      213: 6900935642968809206
+    second: recluta_botaniclos_animacion_andando_1
+  - first:
+      213: 284444930036280797
+    second: recluta_botaniclos_animacion_andando_2
+  - first:
+      213: -1310607173614596555
+    second: recluta_botaniclos_animacion_andando_3
+  - first:
+      213: -2138554918742060209
+    second: recluta_botaniclos_animacion_andando_4
+  - first:
+      213: 7154774558440312656
+    second: recluta_botaniclos_animacion_andando_5
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -75,6 +93,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -119,19 +138,19 @@ TextureImporter:
       name: recluta_botaniclos_animacion_andando_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 17
+        y: 9
+        width: 34
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f26f9cd61b34d1e439548bed5da21d15
-      internalID: 5860615865135436420
+      spriteID: 7c19aa829abcda5b0800000000000000
+      internalID: -5355400454481473081
       vertices: []
       indices: 
       edges: []
@@ -140,19 +159,19 @@ TextureImporter:
       name: recluta_botaniclos_animacion_andando_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 81
+        y: 9
+        width: 34
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9533c4dbc5191e244b5128ffc4880fc0
-      internalID: -6383991153255796301
+      spriteID: 6fedcf0976c05cf50800000000000000
+      internalID: 6900935642968809206
       vertices: []
       indices: 
       edges: []
@@ -161,19 +180,19 @@ TextureImporter:
       name: recluta_botaniclos_animacion_andando_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 145
+        y: 9
+        width: 34
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6437061cc9ec55449ce9d8e055a7dc6
-      internalID: 6552698082672640968
+      spriteID: ddd29f4282d82f300800000000000000
+      internalID: 284444930036280797
       vertices: []
       indices: 
       edges: []
@@ -182,19 +201,19 @@ TextureImporter:
       name: recluta_botaniclos_animacion_andando_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 209
+        y: 9
+        width: 34
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ff5ecbef9f55a9479672ceb6568a659
-      internalID: 215463111354838302
+      spriteID: 53e8f9038b9cfcde0800000000000000
+      internalID: -1310607173614596555
       vertices: []
       indices: 
       edges: []
@@ -203,19 +222,19 @@ TextureImporter:
       name: recluta_botaniclos_animacion_andando_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 273
+        y: 9
+        width: 34
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caf4e536275db9547b4da41b21c6f0a6
-      internalID: -924487618580628324
+      spriteID: f4317b7c1a35252e0800000000000000
+      internalID: -2138554918742060209
       vertices: []
       indices: 
       edges: []
@@ -224,19 +243,19 @@ TextureImporter:
       name: recluta_botaniclos_animacion_andando_5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 337
+        y: 9
+        width: 34
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e41d49eb146a434aab73a426ddace41
-      internalID: -8077305370198515415
+      spriteID: 05f46d3ad8dda4360800000000000000
+      internalID: 7154774558440312656
       vertices: []
       indices: 
       edges: []

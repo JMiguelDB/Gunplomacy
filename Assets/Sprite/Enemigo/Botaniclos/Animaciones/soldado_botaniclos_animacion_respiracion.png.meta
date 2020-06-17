@@ -14,8 +14,20 @@ TextureImporter:
   - first:
       213: 8063400999296074505
     second: soldado_botaniclos_animacion_respiracion_3
+  - first:
+      213: 7950266359245677955
+    second: soldado_botaniclos_animacion_respiracion_0
+  - first:
+      213: 2164005023833242076
+    second: soldado_botaniclos_animacion_respiracion_1
+  - first:
+      213: 6725134821415869027
+    second: soldado_botaniclos_animacion_respiracion_2
+  - first:
+      213: 7973242117122008016
+    second: soldado_botaniclos_animacion_respiracion_3
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -43,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -57,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 60
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,6 +81,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -106,6 +119,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -113,19 +138,19 @@ TextureImporter:
       name: soldado_botaniclos_animacion_respiracion_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 10
         y: 0
-        width: 64
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 43
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad01659c8791dee4ab7bc62dd68e0af3
-      internalID: -5471995959466619719
+      spriteID: 385a394a125055e60800000000000000
+      internalID: 7950266359245677955
       vertices: []
       indices: 
       edges: []
@@ -134,19 +159,19 @@ TextureImporter:
       name: soldado_botaniclos_animacion_respiracion_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 74
         y: 0
-        width: 64
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 43
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dda3a4edf1dd4f14aaa5d26cd26f2b43
-      internalID: 1336028169815205749
+      spriteID: cd9bdb19a17180e10800000000000000
+      internalID: 2164005023833242076
       vertices: []
       indices: 
       edges: []
@@ -155,19 +180,19 @@ TextureImporter:
       name: soldado_botaniclos_animacion_respiracion_2
       rect:
         serializedVersion: 2
-        x: 128
+        x: 138
         y: 0
-        width: 64
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 43
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 486ccfe0373bfc749ab7c07a2d5fb8e8
-      internalID: 1431604411260605410
+      spriteID: 36a5a112d7a745d50800000000000000
+      internalID: 6725134821415869027
       vertices: []
       indices: 
       edges: []
@@ -176,19 +201,19 @@ TextureImporter:
       name: soldado_botaniclos_animacion_respiracion_3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 202
         y: 0
-        width: 64
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 43
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c3a4f093a344e6489fdff4fb1c89bcb
-      internalID: 8063400999296074505
+      spriteID: 0d3ad332675a6ae60800000000000000
+      internalID: 7973242117122008016
       vertices: []
       indices: 
       edges: []

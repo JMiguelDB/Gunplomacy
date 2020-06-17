@@ -9,6 +9,7 @@ public class Shot : MonoBehaviour
     public float shotRate = 1f;
     public float shotForce = 20f;
     public GameObject bulletPrefab;
+    public GameObject gunLight;
     public Transform bulletPosition;
     public Animator bulletAnimator;
 #if (UNITY_ANDROID || UNITY_IOS)
