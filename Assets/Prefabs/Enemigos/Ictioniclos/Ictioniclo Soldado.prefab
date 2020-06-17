@@ -64,7 +64,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8421548ab46908244bc65508fb037af3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 2
+  damage: 1
   shotRate: 0.7
   shotForce: 20
   bulletPrefab: {fileID: 1418241722098682947, guid: b46591db07bf29e4583f191ff62d160a,
@@ -217,7 +217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1589979052239597168
 Transform:
   m_ObjectHideFlags: 0

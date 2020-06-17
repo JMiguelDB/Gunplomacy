@@ -24,7 +24,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &695938316928636215
 Transform:
   m_ObjectHideFlags: 0
@@ -400,7 +400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8421548ab46908244bc65508fb037af3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 2
+  damage: 1
   shotRate: 0.5
   shotForce: 20
   bulletPrefab: {fileID: 9064846327878914347, guid: a6b74f24cd6b4614f8b9f81781f9a7b9,
