@@ -1,0 +1,473 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5431662350298794367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5431662350298794366}
+  m_Layer: 10
+  m_Name: PuntoDeGuardia (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5431662350298794366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431662350298794367}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5431662350512485095}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5431662350412533493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5431662350412533492}
+  m_Layer: 10
+  m_Name: PuntoDeGuardia (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5431662350412533492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431662350412533493}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5431662350512485095}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5431662350415646422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5431662350415646417}
+  m_Layer: 10
+  m_Name: PuntoDeGuardia (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5431662350415646417
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431662350415646422}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5431662350512485095}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5431662350512485092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5431662350512485095}
+  - component: {fileID: 2214797059691083133}
+  m_Layer: 10
+  m_Name: PuntosDeGuardia_1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5431662350512485095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431662350512485092}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5431662351538825032}
+  - {fileID: 5431662350298794366}
+  - {fileID: 5431662350415646417}
+  - {fileID: 5431662350412533492}
+  - {fileID: 5431662350830393496}
+  m_Father: {fileID: 1791375649976589531}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2214797059691083133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431662350512485092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58f2f61fbf5661f4981dbbb1b2b874c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xM: 11
+  xm: -11
+  yM: 11
+  ym: -11
+--- !u!1 &5431662350830393497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5431662350830393496}
+  m_Layer: 10
+  m_Name: PuntoDeGuardia (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5431662350830393496
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431662350830393497}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5431662350512485095}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &773170625
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431662351268506782}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 3
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
+--- !u!70 &6451267916128924107
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431662351268506782}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.925, y: 0.9}
+  m_Direction: 0
+--- !u!114 &452629740534905460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431662351268506782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91847f701965c55409d956f5625b294c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaEnemigo: 5
+  vidaEnemigoActual: 0
+  golpe: 1
+  origenParticulas: {fileID: 0}
+  prefabCadaver: {fileID: 0}
+  Muerto: 0
+  _particulasMuerte: {fileID: 0}
+--- !u!114 &7193797070026859941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431662351268506782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc9048a6d47ef74b944be2873ad573c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arma: {fileID: 0}
+--- !u!1 &5431662351538825033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5431662351538825032}
+  m_Layer: 10
+  m_Name: PuntoDeGuardia
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5431662351538825032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5431662351538825033}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5431662350512485095}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8589765298127837194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791375649976589531}
+  m_Layer: 10
+  m_Name: ReclutaMasPuntosDeGuardia
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791375649976589531
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8589765298127837194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.9392457, y: -2.436437, z: -3.979518}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5431662351268506776}
+  - {fileID: 5431662350512485095}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &7109217899825535641
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1791375649976589531}
+    m_Modifications:
+    - target: {fileID: 1351131248738508108, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: bala
+      value: 
+      objectReference: {fileID: 838207279442382896, guid: a452f0ca5987c1d449821c1838ee1996,
+        type: 3}
+    - target: {fileID: 3010691681949054464, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 665712297
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054464, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054465, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.6926918
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054465, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.6874292
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054465, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054465, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054465, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054465, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054465, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054465, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054465, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054465, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054465, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054466, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: puntosDeGuardia.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054466, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: mSr
+      value: 
+      objectReference: {fileID: 5431662351268506777}
+    - target: {fileID: 3010691681949054466, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: velocidadPatrulla
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054466, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: distanciaStop
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054466, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: distanciaRetirada
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054466, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: puntosDeGuardia.Array.data[0]
+      value: 
+      objectReference: {fileID: 5431662351538825032}
+    - target: {fileID: 3010691681949054466, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: puntosDeGuardia.Array.data[1]
+      value: 
+      objectReference: {fileID: 5431662350298794366}
+    - target: {fileID: 3010691681949054466, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: puntosDeGuardia.Array.data[2]
+      value: 
+      objectReference: {fileID: 5431662350415646417}
+    - target: {fileID: 3010691681949054466, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: puntosDeGuardia.Array.data[3]
+      value: 
+      objectReference: {fileID: 5431662350412533492}
+    - target: {fileID: 3010691681949054466, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: puntosDeGuardia.Array.data[4]
+      value: 
+      objectReference: {fileID: 5431662350830393496}
+    - target: {fileID: 3010691681949054466, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: delayPatrulla
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054471, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: m_Name
+      value: Recluta
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691681949054471, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010691682948329882, guid: 02329c61c880cb248a04fe532ed2ac8b,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 02329c61c880cb248a04fe532ed2ac8b, type: 3}
+--- !u!1 &5431662351268506782 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3010691681949054471, guid: 02329c61c880cb248a04fe532ed2ac8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7109217899825535641}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5431662351268506776 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3010691681949054465, guid: 02329c61c880cb248a04fe532ed2ac8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7109217899825535641}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &5431662351268506777 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3010691681949054464, guid: 02329c61c880cb248a04fe532ed2ac8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 7109217899825535641}
+  m_PrefabAsset: {fileID: 0}
