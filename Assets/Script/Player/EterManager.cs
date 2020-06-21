@@ -75,6 +75,7 @@ public class EterManager : MonoBehaviour
     public void SetCurrentEter(string tag)
     {
         currentEter = tag;
+        EterIndicator.Instance.HighlightCurrentEter(tag);
     }
 
     public bool CanUseEter(int eterQuantity)

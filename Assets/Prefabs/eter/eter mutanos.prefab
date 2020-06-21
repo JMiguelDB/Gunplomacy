@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5317461144984198349}
   - component: {fileID: 894990553359422164}
   - component: {fileID: 4410531254328764461}
-  m_Layer: 0
+  m_Layer: 18
   m_Name: eter mutanos
   m_TagString: Mutano
   m_Icon: {fileID: 0}
@@ -51,7 +51,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d1df568b100b7ab47ac99b7f8d3b2107, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -72,8 +72,8 @@ SpriteRenderer:
   m_SortingLayerID: -541970873
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 686b00afcc0dcf24299aede36cf26272, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: dce833f2f1954964c97b19fcfb11a96d, type: 3}
+  m_Color: {r: 1, g: 0, b: 0.9145675, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -121,4 +121,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 582cb33fb8668724989516383e91a4bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eterValue: 1
+  eterValue: 4

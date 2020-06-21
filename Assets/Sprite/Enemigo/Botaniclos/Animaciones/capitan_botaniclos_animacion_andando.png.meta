@@ -20,8 +20,26 @@ TextureImporter:
   - first:
       213: 5656140129563670272
     second: capitan_botaniclos_animacion_andando_5
+  - first:
+      213: 4741719267328919324
+    second: capitan_botaniclos_animacion_andando_0
+  - first:
+      213: -1732831529268390160
+    second: capitan_botaniclos_animacion_andando_1
+  - first:
+      213: -4442478418433381497
+    second: capitan_botaniclos_animacion_andando_2
+  - first:
+      213: -7445065863056263641
+    second: capitan_botaniclos_animacion_andando_3
+  - first:
+      213: -1144425282950852903
+    second: capitan_botaniclos_animacion_andando_4
+  - first:
+      213: -2196326580751759984
+    second: capitan_botaniclos_animacion_andando_5
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -49,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -63,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 60
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,6 +93,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -112,6 +131,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -119,19 +150,19 @@ TextureImporter:
       name: capitan_botaniclos_animacion_andando_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 7
         y: 0
-        width: 64
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 52
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2cfa2e06bf98e94c83b4b86df0d8fda
-      internalID: 2748746326408086305
+      spriteID: c1704c90d88fdc140800000000000000
+      internalID: 4741719267328919324
       vertices: []
       indices: 
       edges: []
@@ -140,19 +171,19 @@ TextureImporter:
       name: capitan_botaniclos_animacion_andando_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 71
         y: 0
-        width: 64
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 52
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4acff02079c60f14bbcdfe37b9984244
-      internalID: -7520100086321245761
+      spriteID: 0f65c52b7eeb3f7e0800000000000000
+      internalID: -1732831529268390160
       vertices: []
       indices: 
       edges: []
@@ -161,19 +192,19 @@ TextureImporter:
       name: capitan_botaniclos_animacion_andando_2
       rect:
         serializedVersion: 2
-        x: 128
+        x: 135
         y: 0
-        width: 64
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 52
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 855236086393a184ca082033a4d15cbe
-      internalID: -3347480145239070321
+      spriteID: 78b60fa6a652952c0800000000000000
+      internalID: -4442478418433381497
       vertices: []
       indices: 
       edges: []
@@ -182,19 +213,19 @@ TextureImporter:
       name: capitan_botaniclos_animacion_andando_3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 199
         y: 0
-        width: 64
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 52
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 608a7443a52d0214e88eae349b5e5d4e
-      internalID: 7287141018622149850
+      spriteID: 726f42f0b00dda890800000000000000
+      internalID: -7445065863056263641
       vertices: []
       indices: 
       edges: []
@@ -203,19 +234,19 @@ TextureImporter:
       name: capitan_botaniclos_animacion_andando_4
       rect:
         serializedVersion: 2
-        x: 256
+        x: 263
         y: 0
-        width: 64
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 52
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09c54033c2165854f9d66c13ca6de6d4
-      internalID: 3022024332953130094
+      spriteID: 9de0db1c44f2e10f0800000000000000
+      internalID: -1144425282950852903
       vertices: []
       indices: 
       edges: []
@@ -224,19 +255,19 @@ TextureImporter:
       name: capitan_botaniclos_animacion_andando_5
       rect:
         serializedVersion: 2
-        x: 320
+        x: 327
         y: 0
-        width: 64
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 52
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5195d8d87e112604286a8fb98942a947
-      internalID: 5656140129563670272
+      spriteID: 0950b878c941581e0800000000000000
+      internalID: -2196326580751759984
       vertices: []
       indices: 
       edges: []

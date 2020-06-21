@@ -6,8 +6,6 @@ public class RotateWeapon : MonoBehaviour
 {
     [SerializeField]
     GameObject player;
-    [SerializeField]
-    JoystickArea joystickArea;
 
 
     SpriteRenderer playerSprite;
