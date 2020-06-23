@@ -6,6 +6,7 @@ public class EnemyHealth : MonoBehaviour
 {
     public int maxHealth = 6;
     private int currentHealth = 0;
+    private RoomManager actualRoom;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +33,7 @@ public class EnemyHealth : MonoBehaviour
     {
         if (currentHealth <= 0)
         {
+            actualRoom.EnemyDied(gameObject);
             GetComponent<Drop>().DropObjects();
             Destroy(gameObject);
         }
@@ -40,5 +42,10 @@ public class EnemyHealth : MonoBehaviour
     public bool HasMaxHealth()
     {
         return currentHealth == maxHealth;
+    }
+
+    public void SetActualRoom(RoomManager room)
+    {
+        actualRoom = room;
     }
 }

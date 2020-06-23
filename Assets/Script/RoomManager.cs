@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class RoomManager : MonoBehaviour
 {
-    private List<GameObject> enemies = new List<GameObject>();
+    public List<BoxCollider2D> doorColliders;
+    public List<GameObject> enemies;
 
     void Start()
     {
-        foreach (Transform child in transform)
+        foreach (GameObject enemy in enemies)
         {
-            if (child.tag == "Enemy")
-                enemies.Add(child.gameObject);
+            enemy.GetComponent<EnemyHealth>().SetActualRoom(this);
         }
     }
 
@@ -22,6 +22,10 @@ public class RoomManager : MonoBehaviour
             foreach(GameObject enemy in enemies)
             {
                 enemy.GetComponent<EnemyManager>().StartCombat(collision.transform);
+            }
+            if (enemies.Count > 0)
+            {
+                SetDoor(true);
             }
         }
     }
@@ -34,6 +38,23 @@ public class RoomManager : MonoBehaviour
             {
                 enemy.GetComponent<EnemyManager>().StopCombat();
             }
+        }
+    }
+
+    public void EnemyDied(GameObject enemy)
+    {
+        enemies.Remove(enemy);
+        if(enemies.Count == 0)
+        {
+            SetDoor(false);
+        }
+    }
+
+    private void SetDoor(bool state)
+    {
+        foreach (BoxCollider2D doorCollider in doorColliders)
+        {
+            doorCollider.enabled = state;
         }
     }
 }
