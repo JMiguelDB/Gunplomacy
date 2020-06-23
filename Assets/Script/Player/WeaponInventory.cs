@@ -13,6 +13,7 @@ public class WeaponInventory : MonoBehaviour
 
     void Start()
     {
+        WeaponUI.Instance.UpdateSelectedWeapon(weapons[0].GetComponentInChildren<SpriteRenderer>().sprite);
         eterManager = GetComponent<EterManager>();
         ChangeSelectedWeapon();
     }
@@ -48,6 +49,7 @@ public class WeaponInventory : MonoBehaviour
             weapons[1].SetActive(false);
             weapons[0] = weapon1;
             weapons[0].SetActive(true);
+            WeaponUI.Instance.ChangeWeapon();
         }
         eterManager.SetCurrentEter(weapons[0].tag);
     }
