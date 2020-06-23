@@ -55,37 +55,37 @@ public class AsaultManager : MonoBehaviour
                 LoadScene("Asalto");
                 break;
             case 1:
-                LoadScene("Mut.Patrulla");
+                LoadScene("Asalto");
                 break;
             case 2:
-                LoadScene("Mut.Guerra");
+                LoadScene("Asalto");
                 break;
             case 3:
-                LoadScene("Mec.Crucero");
+                LoadScene("Asalto");
                 break;
             case 4:
-                LoadScene("Mec.Patrulla");
+                LoadScene("Asalto");
                 break;
             case 5:
-                LoadScene("Mec.Guerra");
+                LoadScene("Asalto");
                 break;
             case 6:
-                LoadScene("Bot.Crucero");
+                LoadScene("Asalto");
                 break;
             case 7:
-                LoadScene("Bot.Patrulla");
+                LoadScene("Asalto");
                 break;
             case 8:
-                LoadScene("Bot.Guerra");
+                LoadScene("Asalto");
                 break;
             case 9:
-                LoadScene("Ict.Crucero");
+                LoadScene("Asalto");
                 break;
             case 10:
-                LoadScene("Ict.Patrulla");
+                LoadScene("Asalto");
                 break;
             case 11:
-                LoadScene("Ict.Guerra");
+                LoadScene("Asalto");
                 break;
 
 

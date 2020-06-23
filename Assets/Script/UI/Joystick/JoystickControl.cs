@@ -43,6 +43,7 @@ public class JoystickControl : MonoBehaviour, IPointerDownHandler, IDragHandler,
             {
                 imputCalculo = new Vector3(-posicion.x * 2, 0, posicion.y * 2);
                 imputCalculo = (imputCalculo.magnitude > 1.0f) ? imputCalculo.normalized : imputCalculo;
+                
                 contolJoystick.rectTransform.anchoredPosition = new Vector3(-imputCalculo.x * (baseJoystick.rectTransform.sizeDelta.x * .4f),
                                                                     imputCalculo.z * (baseJoystick.rectTransform.sizeDelta.y * .4f));
             }

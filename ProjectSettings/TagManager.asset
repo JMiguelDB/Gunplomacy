@@ -50,11 +50,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Suelo
-    uniqueID: 3375087559
-    locked: 0
   - name: Tiles
     uniqueID: 3710112935
+    locked: 0
+  - name: Suelo
+    uniqueID: 3375087559
     locked: 0
   - name: "Decoraci\xF3n"
     uniqueID: 3752996423
@@ -64,6 +64,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 665712297
+    locked: 0
+  - name: Ceiling
+    uniqueID: 445989223
     locked: 0
   - name: UI
     uniqueID: 2135399891
