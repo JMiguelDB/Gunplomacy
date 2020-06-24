@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RoomManager : MonoBehaviour
 {
-    public List<BoxCollider2D> doorColliders;
+    public List<GameObject> doors;
     public List<GameObject> enemies;
 
     void Start()
@@ -25,7 +25,7 @@ public class RoomManager : MonoBehaviour
             }
             if (enemies.Count > 0)
             {
-                SetDoor(true);
+                SetDoor(false);
             }
         }
     }
@@ -46,15 +46,16 @@ public class RoomManager : MonoBehaviour
         enemies.Remove(enemy);
         if(enemies.Count == 0)
         {
-            SetDoor(false);
+            SetDoor(true);
         }
     }
 
     private void SetDoor(bool state)
     {
-        foreach (BoxCollider2D doorCollider in doorColliders)
+        foreach (GameObject door in doors)
         {
-            doorCollider.enabled = state;
+            door.GetComponentInChildren<CircleCollider2D>().enabled = state;
+            door.GetComponent<Animator>().SetBool("Abrir", state);
         }
     }
 }

@@ -4,17 +4,20 @@ using UnityEngine;
 
 public class AbrirPuerta : MonoBehaviour
 {
-    Animator animator;
-    private void Start()
-    {
-        animator = gameObject.GetComponent<Animator>();
-    }
+    public Animator animator;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        animator.SetBool("Abrir", true);
+        if(collision.tag == "Player")
+        {
+            animator.SetBool("Abrir", true);
+        }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        animator.SetBool("Abrir", false);
+        if (collision.tag == "Player")
+        {
+            animator.SetBool("Abrir", false);
+        }
     }
 }
