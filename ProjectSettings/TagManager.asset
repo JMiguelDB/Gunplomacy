@@ -65,6 +65,9 @@ TagManager:
   - name: Player
     uniqueID: 665712297
     locked: 0
+  - name: Wall
+    uniqueID: 3576499503
+    locked: 0
   - name: Ceiling
     uniqueID: 445989223
     locked: 0
