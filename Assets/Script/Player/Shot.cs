@@ -54,6 +54,7 @@ public class Shot : MonoBehaviour
 
     void Shoot() 
     {
+        AudioManager.instance.Play("Shot");
         bulletAnimator.SetTrigger("shot");
         GameObject bullet = Instantiate(bulletPrefab, bulletPosition.position, bulletPosition.rotation);
         bullet.tag = "BalaProta";

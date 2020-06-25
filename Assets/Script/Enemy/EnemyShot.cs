@@ -41,6 +41,7 @@ public class EnemyShot : MonoBehaviour
 
     void Shoot()
     {
+        AudioManager.instance.Play("EnemyShot");
         GameObject bullet = Instantiate(bulletPrefab, bulletPosition.position, bulletPosition.rotation);
         bullet.tag = "BulletEnemy";
         bullet.GetComponent<Bullet>().SetDamage(damage);
