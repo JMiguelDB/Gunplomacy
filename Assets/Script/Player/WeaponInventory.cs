@@ -50,6 +50,7 @@ public class WeaponInventory : MonoBehaviour
             weapons[0] = weapon1;
             weapons[0].SetActive(true);
             WeaponUI.Instance.ChangeWeapon();
+            AudioManager.instance.Play("TakeWeapon");
         }
         eterManager.SetCurrentEter(weapons[0].tag);
     }

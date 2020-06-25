@@ -40,6 +40,7 @@ public class ActivarDropCofre : MonoBehaviour
 #else
         if (contactoPlayer && Input.GetButtonDown("Interactuar"))
         {
+            AudioManager.instance.Play("OpenChest");
             mSr.sprite = cofreAbierto;
             activarDrop.DropObjects();
             colliderDetector.enabled = false;

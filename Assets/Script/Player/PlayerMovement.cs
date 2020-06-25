@@ -36,8 +36,15 @@ public class PlayerMovement : MonoBehaviour
         moveHorizontal = Input.GetAxisRaw("Horizontal") * speed;
         moveVertical = Input.GetAxisRaw("Vertical") * speed;
 #endif
-
-        animator.SetBool("Andando", (moveHorizontal != 0) || (moveVertical != 0));
+        if((moveHorizontal != 0) || (moveVertical != 0))
+        {
+            AudioManager.instance.Play("Step");
+            animator.SetBool("Andando", true);
+        }
+        else
+        {
+            animator.SetBool("Andando", false);
+        }
 
         Vector3 targetVelocity = new Vector2(moveHorizontal, moveVertical);
         rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref m_velocity, m_MovementSmoothing);

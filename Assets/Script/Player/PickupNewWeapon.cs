@@ -40,6 +40,7 @@ public class PickupNewWeapon : MonoBehaviour
         Collider2D[] weapons = Physics2D.OverlapCircleAll(transform.position, range, weaponLayer);
         if (weapons.Length > 0)
         {
+            AudioManager.instance.Play("TakeWeapon");
             currentWeapon = weaponInventory.GetSelectedWeapon();
             weaponPosition = currentWeapon.transform.localPosition;
             if (weaponInventory.HasSpaceForWeapon())

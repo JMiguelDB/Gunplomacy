@@ -10,6 +10,7 @@ public class AbrirPuerta : MonoBehaviour
     {
         if(collision.tag == "Player")
         {
+            AudioManager.instance.Play("OpenDoor");
             animator.SetBool("Abrir", true);
         }
     }
@@ -17,6 +18,7 @@ public class AbrirPuerta : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+            AudioManager.instance.Play("CloseDoor");
             animator.SetBool("Abrir", false);
         }
     }

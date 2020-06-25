@@ -11,6 +11,7 @@ public class Eter : MonoBehaviour
     {
         if(collision.transform.CompareTag("Player"))
         {
+            AudioManager.instance.Play("TakeEter");
             collision.GetComponent<EterManager>().IncreaseEter(eterValue, transform.tag);
             Destroy(gameObject);
         }
