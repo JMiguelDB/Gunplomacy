@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Zoom : MonoBehaviour
-{ 
+{
     //Añadido por ignacio para poder cargar niveles
     [Tooltip("Cada nave presentara un Id distinto para poder cargar el nivel correspondiente")]
     [Range(0, 11)]
@@ -57,10 +57,10 @@ public class Zoom : MonoBehaviour
     private void OnMouseOver()
     {
         if (!zoom)
-        { 
-        transform.localScale = zoomMouse; 
+        {
+        transform.localScale = zoomMouse;
         }
-      
+
     }
     private void OnMouseExit()
     {
@@ -68,7 +68,6 @@ public class Zoom : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        Debug.Log("Down");
         if (!zoom && bloqueo.Accesible)
         {
             cExit.SetActive(true);

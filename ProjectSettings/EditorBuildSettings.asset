@@ -20,40 +20,40 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Asalto.unity
     guid: 578105831909fcc4d84d4908cbdd9f45
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Naves/Mutanos/Mut.Crucero.unity
     guid: 83e25c4239bd0a24885329098ef59ce2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Naves/Mutanos/Mut.Patrulla.unity
     guid: 9d000b7c0ed4bad4fb65ab1334c57bb3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Naves/Mutanos/Mut.Guerra.unity
     guid: d507b49281b0d3e4e87b74d676a98c64
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Naves/Botaniclos/Bot.Crucero.unity
     guid: fdcf6d97f43f11c42a636dc5e7b5d280
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Naves/Botaniclos/Bot.Guerra.unity
     guid: a1bf2e3194cc1cf4aa36b96c6b94fb5c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Naves/Botaniclos/Bot.Patrulla.unity
     guid: e8d67c612a4bd4145bc909ff737b308b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Naves/Ictioniclos/Ict.Crucero.unity
     guid: 526cf9abcee13a6428920cc1bfef71cd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Naves/Ictioniclos/Ict.Guerra.unity
     guid: 9c1c7a70f2ad2b144b9d54f9c3cfe55f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Naves/Ictioniclos/Ict.Patrulla.unity
     guid: d68a48573c0e7b84b8d04d04d45be979
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Naves/Mecanos/Mec.Crucero.unity
     guid: 6dac14ccaa4395a4a8568d9d80614082
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Naves/Mecanos/Mec.Guerra.unity
     guid: bc4558d377fb1244f9945cd5e925918c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Naves/Mecanos/Mec.Patrulla.unity
     guid: 7650d0805dd06e148824c3f17b1288d5
   m_configObjects: {}

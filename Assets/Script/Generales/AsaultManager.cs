@@ -8,7 +8,7 @@ public class AsaultManager : MonoBehaviour
     /// <summary>
     /// Este script sirve para cargar los distintos niveles en el menu de asalto
     /// </summary>
-    
+
 
     public static int levelID;
 
@@ -24,7 +24,6 @@ public class AsaultManager : MonoBehaviour
 
     void LoadScene(string sceneName)
     {
-        Debug.Log(sceneName);
         SceneManager.LoadScene(sceneName);
         //SceneManager.UnloadSceneAsync("Asalto");
     }
@@ -37,12 +36,6 @@ public class AsaultManager : MonoBehaviour
         cExit = canvas.exit;
         panel = canvas.holo;
     }
-
-    private void Update()
-    {
-        Debug.Log(levelID);
-    }
-
 
     public void CargarNivel()
     {
