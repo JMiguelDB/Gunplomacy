@@ -47,6 +47,7 @@ public class EnemyShot : MonoBehaviour
         bullet.GetComponent<Bullet>().SetDamage(damage);
         Rigidbody2D bulletRB = bullet.GetComponent<Rigidbody2D>();
         bulletRB.AddForce(bulletPosition.right * -1 * shotForce, ForceMode2D.Impulse);
+        bulletRB.AddForce(new Vector2(Random.Range(-1f, 1f), 0) * 3, ForceMode2D.Impulse);
     }
 
     IEnumerator Refresh(float time)

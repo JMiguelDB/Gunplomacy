@@ -4,6 +4,10 @@ using UnityEngine.EventSystems;
 public class JoystickArea : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     #region Variables
+
+
+    public GameObject player;
+
     //[i] Camara para obtener posición en pantalla.
     Camera camara;
 
@@ -12,7 +16,7 @@ public class JoystickArea : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     protected int numeroDePulsación;
 
     //[i] Indica el punto inicial antes de ser arrastrado.
-    [HideInInspector]
+    //[HideInInspector]
     public Vector2 origenInicial;
 
     //[i] Permite mantener el if mientras se mantiene pulsado el Joystick Area.
@@ -20,7 +24,7 @@ public class JoystickArea : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     public bool Pulsado;
 
     //[i] Es el OUTPUT que da el joystick Area.
-    [HideInInspector]
+    //[HideInInspector]
     public Vector2 areaInput;
     #endregion
 
@@ -30,10 +34,13 @@ public class JoystickArea : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     {
         //[i] Aquí opbtenemos la camara actual.
         camara = Camera.main;
+
     }
     
     void Update()
     {
+        origenInicial = player.transform.position;
+        
         pulsacion();
     }
 
@@ -48,12 +55,14 @@ public class JoystickArea : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
             if (numeroDePulsación >= 0 && numeroDePulsación < Input.touches.Length)
             {
                 areaInput = camara.ScreenToWorldPoint(new Vector3(Input.touches[numeroDePulsación].position.x, Input.touches[numeroDePulsación].position.y, 8));
-                origenInicial = Input.touches[numeroDePulsación].position;
+                areaInput = areaInput+ - origenInicial;
+                //origenInicial = Input.touches[numeroDePulsación].position;
             }
             else
             {
                 areaInput = camara.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 8));
-                origenInicial = Input.mousePosition;
+                areaInput = areaInput + -origenInicial;
+                //origenInicial = Input.mousePosition;
             }
         }
     }
@@ -63,7 +72,7 @@ public class JoystickArea : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     {
         Pulsado = true;
         numeroDePulsación = puntero.pointerId;
-        origenInicial = puntero.position;
+        //origenInicial = puntero.position;
         
     }
 
@@ -71,6 +80,11 @@ public class JoystickArea : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     public void OnPointerUp(PointerEventData puntero)
     {
         Pulsado = false;
+    }
+
+    public Vector3 GetTargetPoint()
+    {
+        return new Vector3(areaInput.x * 1, areaInput.y, 0);
     }
     #endregion
 }

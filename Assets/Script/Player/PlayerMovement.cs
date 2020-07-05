@@ -8,7 +8,8 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 10;
     [Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;
 
-    #if (UNITY_ANDROID || UNITY_IOS)
+#if (UNITY_ANDROID || UNITY_IOS)
+    
     [SerializeField]
     JoystickControl joystickControl;
     #endif
@@ -30,8 +31,10 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
 #if (UNITY_ANDROID || UNITY_IOS)
+        
         moveHorizontal = JoystickControl.Input.x * speed;
         moveVertical = JoystickControl.Input.z * speed;
+        
 #else
         moveHorizontal = Input.GetAxisRaw("Horizontal") * speed;
         moveVertical = Input.GetAxisRaw("Vertical") * speed;

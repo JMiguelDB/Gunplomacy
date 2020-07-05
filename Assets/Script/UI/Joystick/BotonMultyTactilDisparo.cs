@@ -1,20 +1,19 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class BotonMultyTactil : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
+public class BotonMultyTactilDisparo : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
 {
-    [HideInInspector]
-    public bool Activar;
-
+    [SerializeField]
+    Shot shot;
 
     public void OnPointerUp(PointerEventData Datos)
     {
-        Activar = false;
+        shot.ShootTrue(false);
     }
 
     public void OnPointerDown(PointerEventData Datos)
     {
-        Activar = true;
+        shot.ShootTrue(true);
     }
    
 }

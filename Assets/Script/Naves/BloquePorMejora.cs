@@ -13,7 +13,7 @@ public class BloquePorMejora : MonoBehaviour
     private void Awake()
     {
         nivelDeMejoras = PlayerPrefs.GetInt("nivelDeMejora",0);
-        Debug.Log(nivelDeMejoras);
+        //Debug.Log(nivelDeMejoras);
     }
     private void Update()
     {
