@@ -6,6 +6,8 @@ public class RotateWeapon : MonoBehaviour
 {
     [SerializeField]
     GameObject player;
+    [SerializeField]
+    JoystickArea joystickArea;
 
 
     SpriteRenderer playerSprite;
@@ -14,6 +16,7 @@ public class RotateWeapon : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        joystickArea = joystickArea.GetComponent<JoystickArea>();
         playerSprite = GetComponentInParent<SpriteRenderer>();
         weaponSprite = GetComponentInChildren<SpriteRenderer>();
         Vector3 theScale = transform.localScale;
@@ -26,7 +29,14 @@ public class RotateWeapon : MonoBehaviour
     void Update()
     {
 #if (UNITY_ANDROID || UNITY_IOS)
-        targetPosition = JoystickArma.GetTargetPoint();
+        if (JoystickArma.GetTargetPoint().x !=0 | JoystickArma.GetTargetPoint().y != 0)
+        {
+            targetPosition = JoystickArma.GetTargetPoint();
+        }
+        else
+        {
+            targetPosition = joystickArea.GetTargetPoint();
+        }
         Vector3 originPosition = Vector3.zero;
 #else
         targetPosition = GetWorldPositionOnPlane(Input.mousePosition, 0f);
