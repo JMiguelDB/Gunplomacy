@@ -10,7 +10,7 @@ public class HealthIndicator : MonoBehaviour
     public TextMeshProUGUI healthText;
     public Image healthBar;
 
-    private int maxHealth = 6;
+    private int maxHealth = 10;
     void Start()
     {
         Instance = this;

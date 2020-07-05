@@ -2388,8 +2388,8 @@ Camera:
   m_GameObject: {fileID: 885707989}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3107,7 +3107,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1082717956}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5167475
+  m_Size: 0.4843251
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3417,8 +3417,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 24.9, y: 2.13}
-  m_SizeDelta: {x: 530.6288, y: 577.1237}
+  m_AnchoredPosition: {x: 24.9, y: 19.7}
+  m_SizeDelta: {x: 530.6288, y: 541.9798}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1075579375
 MonoBehaviour:
@@ -6195,8 +6195,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000026703, y: -324}
-  m_SizeDelta: {x: 82.1581, y: 22.553192}
+  m_AnchoredPosition: {x: 0, y: -301.74}
+  m_SizeDelta: {x: 87.78113, y: 40.360626}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1869425044
 MonoBehaviour:
@@ -6372,8 +6372,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 0
+  m_fontColor: {r: 0, g: 0, b: 0, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6408,7 +6408,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
