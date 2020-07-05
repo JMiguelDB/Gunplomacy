@@ -14,7 +14,7 @@ public class ParalajeLayer : MonoBehaviour
     private void Awake()
     {
         //[i] Aqui se busca el GameManager gracias a una tag y se asigna a "obj".
-        obj = GameObject.FindGameObjectWithTag("GameManager");
+        obj = GameObject.FindGameObjectWithTag("MainCamera");
     }
 
     void Start()
