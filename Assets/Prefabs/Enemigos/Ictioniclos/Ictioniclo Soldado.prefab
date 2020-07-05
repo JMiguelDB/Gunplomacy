@@ -65,8 +65,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  shotRate: 0.7
-  shotForce: 20
+  shotRate: 1
+  shotForce: 8
   bulletPrefab: {fileID: 1418241722098682947, guid: b46591db07bf29e4583f191ff62d160a,
     type: 3}
   bulletPosition: {fileID: 951258991627598994}
@@ -412,7 +412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8068769188e0cb544bef2cce0fa88c1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 4
   maxDistance: 5
   probIdle: 0.3
   maxIdleTime: 3
@@ -463,21 +463,21 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.618
   m_Color: {r: 0, g: 0.5196264, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.28
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: a7d423dd
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
-  m_AlphaBlendOnOverlap: 0
-  m_ShadowIntensity: 1
+  m_AlphaBlendOnOverlap: 1
+  m_ShadowIntensity: 0
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 1
   m_PointLightOuterAngle: 1
   m_PointLightInnerRadius: 0
   m_PointLightOuterRadius: 16.24
   m_PointLightDistance: 3
-  m_PointLightQuality: 1
+  m_PointLightQuality: 0
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -504,7 +504,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6308706571977904877
 Transform:
   m_ObjectHideFlags: 0
@@ -537,21 +537,21 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.618
   m_Color: {r: 0, g: 0.5196264, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.28
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: a7d423dd
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
-  m_AlphaBlendOnOverlap: 0
-  m_ShadowIntensity: 1
+  m_AlphaBlendOnOverlap: 1
+  m_ShadowIntensity: 0
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 1
   m_PointLightOuterAngle: 1
   m_PointLightInnerRadius: 0
   m_PointLightOuterRadius: 16.24
   m_PointLightDistance: 3
-  m_PointLightQuality: 1
+  m_PointLightQuality: 0
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -609,21 +609,21 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.618
   m_Color: {r: 0, g: 0.5196264, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.28
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: a7d423dd
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
-  m_AlphaBlendOnOverlap: 0
-  m_ShadowIntensity: 1
+  m_AlphaBlendOnOverlap: 1
+  m_ShadowIntensity: 0
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 1
   m_PointLightOuterAngle: 1
   m_PointLightInnerRadius: 0
   m_PointLightOuterRadius: 16.24
   m_PointLightDistance: 3
-  m_PointLightQuality: 1
+  m_PointLightQuality: 0
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1

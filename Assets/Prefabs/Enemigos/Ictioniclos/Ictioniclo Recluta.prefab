@@ -47,21 +47,21 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.618
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.28
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: a7d423dd
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
-  m_AlphaBlendOnOverlap: 0
-  m_ShadowIntensity: 1
+  m_AlphaBlendOnOverlap: 1
+  m_ShadowIntensity: 0
   m_ShadowVolumeIntensity: 0
   m_PointLightInnerAngle: 47
   m_PointLightOuterAngle: 206
   m_PointLightInnerRadius: 0
   m_PointLightOuterRadius: 4.99
   m_PointLightDistance: 3
-  m_PointLightQuality: 1
+  m_PointLightQuality: 0
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -137,8 +137,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  shotRate: 0.7
-  shotForce: 20
+  shotRate: 1.2
+  shotForce: 10
   bulletPrefab: {fileID: 4527600664709936565, guid: d26ef16f7d0b52e449987c108149ee17,
     type: 3}
   bulletPosition: {fileID: 3092938577386613790}
@@ -484,7 +484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8068769188e0cb544bef2cce0fa88c1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 3
   maxDistance: 5
   probIdle: 0.3
   maxIdleTime: 3
