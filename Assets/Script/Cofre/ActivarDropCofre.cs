@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 /// <summary>
-/// Con este scrip conseguipos que el cofre detecte a nuestro jugador y asu vez si el jugador pulsa la tecla "e" 
+/// Con este scrip conseguipos que el cofre detecte a nuestro jugador y asu vez si el jugador pulsa la tecla "e"
 /// interactuar este activará el booleano y nos dará un item aleatorio.
 /// Hecho por jose antonio 20/01 v.1
 /// </summary>
@@ -15,6 +15,8 @@ public class ActivarDropCofre : MonoBehaviour
 
     public Sprite cofreAbierto;
 
+    bool isOpen;
+
     [SerializeField]
     BotonMultyTactil botonMultyTactil;
 
@@ -25,26 +27,27 @@ public class ActivarDropCofre : MonoBehaviour
     void Start()
     {
         mSr = GetComponent<SpriteRenderer>();
-        activarDrop = this.GetComponent<Drop>();  
+        activarDrop = this.GetComponent<Drop>();
+        isOpen = false;
     }
     void Update()
     {
 #if (UNITY_ANDROID || UNITY_IOS)
-        if (contactoPlayer && botonMultyTactil.Activar == true)
+        if (contactoPlayer && botonMultyTactil.Activar == true && !isOpen)
         {
             mSr.sprite = cofreAbierto;
             activarDrop.DropObjects();
             colliderDetector.enabled = false;
-
+            isOpen = true;
         }
 #else
-        if (contactoPlayer && Input.GetButtonDown("Interactuar"))
+        if (contactoPlayer && Input.GetButtonDown("Interactuar") && !isOpen)
         {
             AudioManager.instance.Play("OpenChest");
             mSr.sprite = cofreAbierto;
             activarDrop.DropObjects();
             colliderDetector.enabled = false;
-            
+            isOpen = true;
         }
 #endif
 
