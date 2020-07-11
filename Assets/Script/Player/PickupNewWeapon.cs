@@ -13,6 +13,9 @@ public class PickupNewWeapon : MonoBehaviour
 
     public bool pick=false;
 
+    [SerializeField]
+    BotonMultyTactil botonMultyTactil;
+
     private void Start()
     {
         weaponInventory = GetComponent<WeaponInventory>();
@@ -23,7 +26,7 @@ public class PickupNewWeapon : MonoBehaviour
     {
 
 #if (UNITY_ANDROID || UNITY_IOS)
-        if (pick==true)
+        if (!pick && botonMultyTactil.Activar)
         {
             TakeWeapon();
         }
@@ -37,6 +40,7 @@ public class PickupNewWeapon : MonoBehaviour
 
     void TakeWeapon()
     {
+        pick = true;
         Collider2D[] weapons = Physics2D.OverlapCircleAll(transform.position, range, weaponLayer);
         if (weapons.Length > 0)
         {
@@ -54,7 +58,9 @@ public class PickupNewWeapon : MonoBehaviour
                 AttachNewWeapon(weapons[0].gameObject);
                 weaponInventory.ChangeSelectedWeapon();
                 WeaponUI.Instance.UpdateSelectedWeapon(weapons[0].GetComponentInChildren<SpriteRenderer>().sprite);
+                WeaponUI.Instance.UpdateSecondaryWeapon(weaponInventory.weapons[1].GetComponentInChildren<SpriteRenderer>().sprite);
             }
+            botonMultyTactil.Activar = false;
         }
         pick = false;
     }
