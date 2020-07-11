@@ -16,7 +16,7 @@ public class RotateWeapon : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        joystickArea = joystickArea.GetComponent<JoystickArea>();
+        joystickArea = GameObject.FindGameObjectWithTag("JRotate").GetComponent<JoystickArea>();
         playerSprite = GetComponentInParent<SpriteRenderer>();
         weaponSprite = GetComponentInChildren<SpriteRenderer>();
         Vector3 theScale = transform.localScale;
